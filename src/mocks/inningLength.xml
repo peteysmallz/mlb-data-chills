@@ -1,0 +1,32 @@
+http://mlb.mlb.com/mlb/mmls2017/490202.xml
+
+scoring plays
+
+http://gdx.mlb.com/components/game/mlb/year_2017/month_04/day_10/gid_2017_04_10_tbamlb_nyamlb_1/runScoringPlays.plist
+
+game video
+
+https://mediadownloads.mlb.com/mlbam/mp4/2017/04/10/1270202983/1491867154862/asset_450K.mp4
+
+roster
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season=2017&sort_order=%27desc%27&sort_column=%27ab%27&page_type=SortablePlayer&team_id=139&game_type=%27R%27&player_pool=ALL&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP=1&recPP=50
+
+https://statsapi.mlb.com/api/v1/schedule?sportId=1&gamePk=490195&hydrate=team,linescore,flags,liveLookin,person,stats,probablePitcher,game(content(summary,media(epg)),tickets)
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season=2017&sort_order=%27desc%27&sort_column=%27avg%27&stat_type=hitting&page_type=SortablePlayer&game_type=%27R%27&player_pool=QUALIFIER&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP=1&recPP=50
+
+sort by at bats
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season=2017&sort_order=%27desc%27&sort_column=%27g%27&stat_type=hitting&page_type=SortablePlayer&game_type=%27R%27&player_pool=QUALIFIER&season_type=ANY&sport_code=%27mlb%27&results=1000&recSP=1&recPP=50
+
+Search by catchers
+
+http://mlb.mlb.com/lookup/json/named.search_player_all_pos.bam?sport_code=%27mlb%27&active_sw=%27Y%27&position=%272%27
+
+Astro's image and colors
+
+http://m.astros.mlb.com/shared/properties/style/hou.json
+
+
+

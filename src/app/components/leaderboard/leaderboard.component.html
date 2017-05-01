@@ -1,0 +1,48 @@
+<table class="table table-data">
+  <thead>
+    <tr>
+      <th>RK</th>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Pos</th>
+      <th>G</th>
+      <th>AB</th>
+      <th>R</th>
+      <th>H</th>
+      <th>HR</th>
+      <th>RBI</th>
+      <th>BB</th>
+      <th>SO</th>
+      <th>SB</th>
+      <th>CS</th>
+      <th>AVG</th>
+      <th>OBP</th>
+      <th>SLG</th>
+      <th>OPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let player of leaderboard">
+      <td>{{player.rank}}</td>
+      <td>{{player.name_last}}, {{player.name_first.charAt(0)}}</td>
+      <td>{{player.team_abbrev}}</td>
+      <td>{{player.pos}}</td>
+      <td>{{player.g}}</td>
+      <td>{{player.ab}}</td>
+      <td>{{player.r}}</td>
+      <td>{{player.h}}</td>
+      <td>{{player.hr}}</td>
+      <td>{{player.rbi}}</td>
+      <td>{{player.bb}}</td>
+      <td>{{player.so}}</td>
+      <td>{{player.sb}}</td>
+      <td>{{player.cs}}</td>
+      <td>{{player.avg}}</td>
+      <td>{{player.obp}}</td>
+      <td>{{player.slg}}</td>
+      <td>{{player.ops}}</td>
+    </tr>
+  </tbody>
+
+</table>
+

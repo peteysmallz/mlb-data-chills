@@ -1,0 +1,53 @@
+<table class="scorecard-details">
+  <tbody>
+    <tr>
+      <td width="30">
+        <img class="scorecard-logo away-team" src="../../assets/logos/{{game?.away_team_id}}.svg" />
+      </td>
+      <td class="scorecard-team-name">
+        {{game?.away_team_name}}
+      </td>
+      <td
+        *ngIf="game?.linescore?.inning.length"
+        width="50"
+        class="scorecard-score"
+      >
+        {{game?.linescore?.r?.away}}
+      </td>
+      <td
+        *ngIf="!game?.linescore?.inning.length"
+        width="50"
+        class="scorecard-record"
+      >
+        {{game?.away_win}} - {{game?.away_loss}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="scorecard-logo home-team" src="../../assets/logos/{{game?.home_team_id}}.svg" />
+      </td>
+      <td class="scorecard-team-name">
+        {{game?.home_team_name}}
+      </td>
+      <td *ngIf="game?.linescore?.inning.length"
+          class="scorecard-score"
+      >
+        {{game?.linescore?.r?.home}}
+      </td>
+      <td *ngIf="!game?.linescore?.inning.length"
+          class="scorecard-record"
+      >
+        {{game?.home_win}} - {{game?.home_loss}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="scorecard-overview">
+  <tr>
+    <td>{{game?.time}} {{game?.time_zone}} {{game?.ampm}}</td>
+  </tr>
+  <tr>
+    <td class="scorecard-tv-station">{{game?.broadcast?.home?.tv}}</td>
+  </tr>
+</table>
