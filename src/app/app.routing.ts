@@ -4,7 +4,7 @@ import { ScoreboardComponent } from './components/scoreboard/scoreboard.componen
 import { AppComponent } from './app.component';
 
 export const routes: Routes = [
-  { path: '', component: AppComponent},
+  // { path: '', component: AppComponent},
   { path: 'player/:id', component: PlayerDescriptionComponent }
 ];
 

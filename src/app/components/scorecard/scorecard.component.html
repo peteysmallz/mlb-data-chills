@@ -43,11 +43,35 @@
   </tbody>
 </table>
 
-<table class="scorecard-overview">
+<table *ngIf="game?.status.status === 'Preview' " class="scorecard-overview">
   <tr>
     <td>{{game?.time}} {{game?.time_zone}} {{game?.ampm}}</td>
   </tr>
   <tr>
-    <td class="scorecard-tv-station">{{game?.broadcast?.home?.tv}}</td>
+    <td class="scorecard-tv-station">{{game?.broadcast.home.tv}}</td>
   </tr>
 </table>
+
+<table *ngIf="game?.status.status !== 'Preview' && game?.status.status !== 'In Progress' && game?.status.status !== 'Final' " class="scorecard-overview">
+  <tr>
+    <td>{{game?.time}} {{game?.time_zone}} {{game?.ampm}}</td>
+  </tr>
+  <tr>
+    <td>{{game?.status.status}}</td>
+  </tr>
+</table>
+
+<table *ngIf="game?.status.status === 'In Progress' " class="scorecard-overview">
+  <tr>
+    <td>{{game?.status.inning_state}} {{game?.status.inning}}</td>
+  </tr>
+  <tr></tr>
+</table>
+
+<table *ngIf="game?.status.status === 'Final' " class="scorecard-overview">
+  <tr>
+    <td>FINAL</td>
+  </tr>
+  <tr></tr>
+</table>
+

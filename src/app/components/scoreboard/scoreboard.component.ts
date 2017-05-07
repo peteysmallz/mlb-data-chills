@@ -33,6 +33,27 @@ export class ScoreboardComponent implements OnInit {
         }
     );
 
+    // To keep the scoreboard updated
+    // TODO: Should not be 'on' when no games are active
+
+    setInterval(() => {
+        this.scores.getMasterScoreboard(day, month, year)
+          .subscribe(
+            (games: Array<any>) => {
+              this.scoreBoard = games;
+            }
+          );
+      }
+      , 60000);
   }
+
+  boxscore(awayTeam: string, homeTeam: string) {
+    const today = this.util.getToday();
+    const day = today.day;
+    const month = today.month;
+    const year = today.year;
+
+    this.scores.fetchBoxscore('06', month, year, awayTeam, homeTeam);
+  };
 
 }

@@ -20,6 +20,7 @@ import {ServerService} from './services/server.service';
 import { ScoreboardComponent } from './components/scoreboard/scoreboard.component';
 import {LeaderboardService} from './services/player/leaderboard.service';
 import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
+import { BoxscoreComponent } from './components/boxscore/boxscore.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LeaderboardComponent } from './components/leaderboard/leaderboard.compo
     HeaderComponent,
     PlayerDescriptionComponent,
     ScoreboardComponent,
-    LeaderboardComponent
+    LeaderboardComponent,
+    BoxscoreComponent
   ],
   imports: [
     BrowserModule,
