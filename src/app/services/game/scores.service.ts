@@ -10,7 +10,7 @@ export class ScoresService {
   private ROOT_URL = 'http://gd2.mlb.com/components/game/mlb/';
   public boxscore: any;
   public boxscoreObservable: Observable<any>;
-  private boxscoreNotify: any;
+  public boxscoreNotify: any;
 
   constructor(
     private http: Http,
@@ -21,7 +21,7 @@ export class ScoresService {
       ).share();
   }
 
-  getMasterScoreboard(day: string, month: string, year: string): Observable<any> {
+  getMasterScoreboard(day: string, month: string, year: string) {
     return this.http.get(this.ROOT_URL + 'year_' + year + '/month_' + month + '/day_' + day + '/master_scoreboard.json')
       .map(this.server.extractData)
       .map((data) => data.games)

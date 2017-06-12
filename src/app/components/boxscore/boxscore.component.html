@@ -1,3 +1,86 @@
-<p>
-  {{boxscore | json}}
-</p>
+<div *ngIf="awayDoubles">Doubles: {{awayDoubles}}</div>
+<div *ngIf="awayTriples">Triples: {{awayTriples}}</div>
+<div *ngIf="awayHomeRuns">Home Runs: {{awayHomeRuns}}</div>
+<table class="table table-data">
+  <thead>
+    <tr>
+      <th>Hitters</th>
+      <th>AB</th>
+      <th>R</th>
+      <th>H</th>
+      <th>RBI</th>
+      <th>BB</th>
+      <th>SO</th>
+      <th>AVG</th>
+      <th>OBP</th>
+      <th>SLG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let batter of boxscore?.batting[1].batter">
+      <td>{{batter?.name}} {{batter?.pos}}</td>
+      <td>{{batter?.ab}}</td>
+      <td>{{batter?.r}}</td>
+      <td>{{batter?.h}}</td>
+      <td>{{batter?.rbi}}</td>
+      <td>{{batter?.bb}}</td>
+      <td>{{batter?.so}}</td>
+      <td>{{batter?.avg}}</td>
+      <td>{{batter?.obp}}</td>
+      <td>{{batter?.slg}}</td>
+    </tr>
+    <tr>
+      <td>Totals</td>
+      <td>{{boxscore?.batting[1].ab}}</td>
+      <td>{{boxscore?.batting[1].r}}</td>
+      <td>{{boxscore?.batting[1].h}}</td>
+      <td>{{boxscore?.batting[1].rbi}}</td>
+      <td>{{boxscore?.batting[1].bb}}</td>
+      <td>{{boxscore?.batting[1].so}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div *ngIf="awayDoubles">Doubles: {{homeDoubles}}</div>
+<div *ngIf="awayTriples">Triples: {{homeTriples}}</div>
+<div *ngIf="awayhomeRuns">Home Runs: {{homeHomeRuns}}</div>
+<table class="table table-data">
+  <thead>
+    <tr>
+      <th>Hitters</th>
+      <th>AB</th>
+      <th>R</th>
+      <th>H</th>
+      <th>RBI</th>
+      <th>BB</th>
+      <th>SO</th>
+      <th>AVG</th>
+      <th>OBP</th>
+      <th>SLG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let batter of boxscore?.batting[0].batter">
+      <td>{{batter?.name}} {{batter?.pos}}</td>
+      <td>{{batter?.ab}}</td>
+      <td>{{batter?.r}}</td>
+      <td>{{batter?.h}}</td>
+      <td>{{batter?.rbi}}</td>
+      <td>{{batter?.bb}}</td>
+      <td>{{batter?.so}}</td>
+      <td>{{batter?.avg}}</td>
+      <td>{{batter?.obp}}</td>
+      <td>{{batter?.slg}}</td>
+    </tr>
+    <tr>
+      <td>Totals</td>
+      <td>{{boxscore?.batting[0].ab}}</td>
+      <td>{{boxscore?.batting[0].r}}</td>
+      <td>{{boxscore?.batting[0].h}}</td>
+      <td>{{boxscore?.batting[0].rbi}}</td>
+      <td>{{boxscore?.batting[0].bb}}</td>
+      <td>{{boxscore?.batting[0].so}}</td>
+    </tr>
+  </tbody>
+</table>

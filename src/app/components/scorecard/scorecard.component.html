@@ -75,3 +75,8 @@
   <tr></tr>
 </table>
 
+<mlb-data-bases-live
+  *ngIf="game?.status.status === 'In Progress'"
+  [game]="game"
+></mlb-data-bases-live>
+

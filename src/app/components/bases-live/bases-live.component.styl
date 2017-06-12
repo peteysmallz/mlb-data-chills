@@ -1,0 +1,49 @@
+.bases
+  display: block
+  width: 45px
+  height: 35px
+
+  .diamond
+    border-color: transparent transparent #cbccce transparent
+    border-style: solid
+    height: 0
+    position: relative
+    width: 0
+    border-width: 10px
+    top: -10px
+
+    &:after
+      content: ''
+      border-color: transparent
+      border-style: solid
+      border-top-color: #cbccce
+      height: 0
+      position: absolute
+      width: 0
+      border-width: 10px
+      left: -10px
+      top: 10px
+
+  .second-base
+    clear: both
+    margin: 0 auto
+    top: -2px !important
+    &.active
+      border-bottom-color: #d00
+      &:after
+        border-top-color: #d00
+
+  .third-base
+    float: left
+    margin-right: 4px
+    &.active
+      border-bottom-color: #d00
+      &:after
+        border-top-color: #d00
+
+  .first-base
+    float: right
+    &.active
+      border-bottom-color: #d00
+      &:after
+        border-top-color: #d00

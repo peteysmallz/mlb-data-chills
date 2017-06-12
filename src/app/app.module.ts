@@ -21,6 +21,7 @@ import { ScoreboardComponent } from './components/scoreboard/scoreboard.componen
 import {LeaderboardService} from './services/player/leaderboard.service';
 import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
 import { BoxscoreComponent } from './components/boxscore/boxscore.component';
+import { BasesLiveComponent } from './components/bases-live/bases-live.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BoxscoreComponent } from './components/boxscore/boxscore.component';
     PlayerDescriptionComponent,
     ScoreboardComponent,
     LeaderboardComponent,
-    BoxscoreComponent
+    BoxscoreComponent,
+    BasesLiveComponent
   ],
   imports: [
     BrowserModule,

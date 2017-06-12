@@ -1,0 +1,4465 @@
+{
+  "subject": "game_events",
+  "copyright": "Copyright 2017 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "data": {
+    "game": {
+      "inning": [
+        {
+          "num": "1",
+          "bottom": {
+            "atbat": [
+              {
+                "home_team_runs": "0",
+                "des": "Carlos Santana grounds out, second baseman Starlin Castro to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "29",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "467793",
+                "des_es": "Carlos Santana batea rodado de out, segunda base Starlin Castro a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "4",
+                "start_tfs_zulu": "2016-07-07T23:16:50Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "41bde02e-5757-4214-a1b7-82a8656edb0b",
+                "pitch": [
+                  {
+                    "start_speed": "89.7",
+                    "des": "Called Strike",
+                    "sv_id": "160707_191915",
+                    "pitch_type": "FT",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "91.9",
+                    "des": "Ball",
+                    "sv_id": "160707_191931",
+                    "pitch_type": "FF",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "90.7",
+                    "des": "In play, out(s)",
+                    "sv_id": "160707_191948",
+                    "pitch_type": "FT",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "231650"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Jason Kipnis grounds out, third baseman Chase Headley to first baseman Mark Teixeira.  ",
+                "b": "2",
+                "event_num": "38",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "543401",
+                "des_es": "Jason Kipnis batea rodado de out, tercera base Chase Headley a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "5",
+                "start_tfs_zulu": "2016-07-07T23:18:05Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "d90396a1-44d7-4ab2-a56a-a872a87fa3d1",
+                "pitch": [
+                  {
+                    "start_speed": "90.7",
+                    "des": "Ball",
+                    "sv_id": "160707_192029",
+                    "pitch_type": "FF",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "231805"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Francisco Lindor singles on a line drive to center fielder Jacoby Ellsbury.  ",
+                "b": "1",
+                "event_num": "44",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "596019",
+                "des_es": "Francisco Lindor pega sencillo con l&#237;nea a jardinero central Jacoby Ellsbury.  ",
+                "event_es": "Sencillo",
+                "num": "6",
+                "start_tfs_zulu": "2016-07-07T23:20:25Z",
+                "s": "1",
+                "event": "Single",
+                "b1": "596019",
+                "play_guid": "c0631987-fb95-44ef-889a-a91385a3fd6a",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "232025"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Mike Napoli grounds out softly to first baseman Mark Teixeira.  ",
+                "b": "0",
+                "event_num": "48",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "3",
+                "batter": "435063",
+                "des_es": "Mike Napoli batea rodado de out suavemente a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "7",
+                "start_tfs_zulu": "2016-07-07T23:21:47Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "2f672e3b-4a50-4557-9d81-34cf42a8eee9",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, out(s)",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, out(s)"
+                },
+                "away_team_runs": "0",
+                "start_tfs": "232147"
+              }
+            ]
+          },
+          "top": {
+            "atbat": [
+              {
+                "home_team_runs": "0",
+                "des": "Jacoby Ellsbury grounds out, second baseman Jason Kipnis to first baseman Mike Napoli.  ",
+                "b": "1",
+                "event_num": "7",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "453056",
+                "des_es": "Jacoby Ellsbury batea rodado de out, segunda base Jason Kipnis a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "1",
+                "start_tfs_zulu": "2016-07-07T23:11:26Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "98a6a955-a979-4281-a6f2-7cd3bc7d6b61",
+                "pitch": [
+                  {
+                    "start_speed": "91.8",
+                    "des": "Called Strike",
+                    "sv_id": "160707_191249",
+                    "pitch_type": "FF",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "87.9",
+                    "des": "Ball",
+                    "sv_id": "160707_191300",
+                    "pitch_type": "CH",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "93.0",
+                    "des": "In play, out(s)",
+                    "sv_id": "160707_191313",
+                    "pitch_type": "FF",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "231126"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Brett Gardner called out on strikes.  ",
+                "b": "3",
+                "event_num": "16",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "458731",
+                "des_es": "Brett Gardner se poncha sin tirarle.  ",
+                "event_es": "Ponche",
+                "num": "2",
+                "start_tfs_zulu": "2016-07-07T23:11:58Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "d84894af-ef0e-4814-8f7d-0282ed606e8e",
+                "pitch": [
+                  {
+                    "start_speed": "93.1",
+                    "des": "Called Strike",
+                    "sv_id": "160707_191355",
+                    "pitch_type": "FF",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "231158"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Carlos Beltran strikes out swinging.  ",
+                "b": "0",
+                "event_num": "22",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "3",
+                "batter": "136860",
+                "des_es": "Carlos Beltran se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "3",
+                "start_tfs_zulu": "2016-07-07T23:13:28Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "c5d47bd3-fa57-43b8-a6c8-c58661a70940",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "231328"
+              }
+            ]
+          }
+        },
+        {
+          "num": "2",
+          "bottom": {
+            "atbat": [
+              {
+                "home_team_runs": "0",
+                "des": "Jose Ramirez grounds out, second baseman Starlin Castro to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "77",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "608070",
+                "des_es": "Jose Ramirez batea rodado de out, segunda base Starlin Castro a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "11",
+                "start_tfs_zulu": "2016-07-07T23:30:04Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "147aa56c-8b64-49e8-910b-13a6eee660dd",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233004"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Lonnie Chisenhall grounds out, third baseman Chase Headley to first baseman Mark Teixeira.  ",
+                "b": "2",
+                "event_num": "84",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "502082",
+                "des_es": "Lonnie Chisenhall batea rodado de out, tercera base Chase Headley a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "12",
+                "start_tfs_zulu": "2016-07-07T23:30:55Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "383f7e85-e1e7-4e79-8e8c-76542eee44fd",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233055"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Rajai Davis strikes out swinging.  ",
+                "b": "0",
+                "event_num": "90",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "3",
+                "batter": "434658",
+                "des_es": "Rajai Davis se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "13",
+                "start_tfs_zulu": "2016-07-07T23:32:27Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "63526ffc-7420-4470-a785-31c2e5b04d5e",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233227"
+              }
+            ]
+          },
+          "top": {
+            "atbat": [
+              {
+                "home_team_runs": "0",
+                "des": "Brian McCann grounds out, second baseman Jason Kipnis to first baseman Mike Napoli.  ",
+                "b": "1",
+                "event_num": "57",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "435263",
+                "des_es": "Brian McCann batea rodado de out, segunda base Jason Kipnis a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "8",
+                "start_tfs_zulu": "2016-07-07T23:24:12Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "e897d658-3195-479b-915a-2236db9bf074",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "232412"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Mark Teixeira flies out to left fielder Rajai Davis.  ",
+                "b": "1",
+                "event_num": "64",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "407893",
+                "des_es": "Mark Teixeira batea elevado de out a jardinero izquierdo Rajai Davis.  ",
+                "event_es": "Elevado de Out",
+                "num": "9",
+                "start_tfs_zulu": "2016-07-07T23:25:35Z",
+                "s": "2",
+                "event": "Flyout",
+                "b1": "",
+                "play_guid": "a38b9ac1-ec55-4588-9d20-4c7b738a10bc",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "232535"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Starlin Castro strikes out swinging.  ",
+                "b": "1",
+                "event_num": "71",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "3",
+                "batter": "516770",
+                "des_es": "Starlin Castro se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "10",
+                "start_tfs_zulu": "2016-07-07T23:26:57Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "56fda629-aa6b-4cc6-80c3-ea88c7f7c4b2",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "232657"
+              }
+            ]
+          }
+        },
+        {
+          "num": "3",
+          "bottom": {
+            "atbat": [
+              {
+                "home_team_runs": "1",
+                "des": "Tyler Naquin homers (8) on a line drive to center field.  ",
+                "b": "1",
+                "event_num": "133",
+                "b3": "",
+                "score": "T",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "0",
+                "batter": "571980",
+                "des_es": "Tyler Naquin batea jonr&#243;n (8) con l&#237;nea por el jard&#237;n central.  ",
+                "rbi": "1",
+                "event_es": "Jonr&#243;n",
+                "num": "18",
+                "start_tfs_zulu": "2016-07-07T23:43:32Z",
+                "s": "2",
+                "event": "Home Run",
+                "b1": "",
+                "play_guid": "dcf7ed66-c110-4851-b38f-6c3c2eb5a2da",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "234332"
+              },
+              {
+                "home_team_runs": "1",
+                "des": "Chris Gimenez strikes out swinging.  ",
+                "b": "1",
+                "event_num": "140",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "460269",
+                "des_es": "Chris Gimenez se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "19",
+                "start_tfs_zulu": "2016-07-07T23:46:29Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "c80b97a8-10f2-498a-a3ce-d086c3ad1e53",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul Bunt",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Toque de foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "234629"
+              },
+              {
+                "home_team_runs": "1",
+                "des": "Carlos Santana strikes out swinging.  ",
+                "b": "2",
+                "event_num": "148",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "467793",
+                "des_es": "Carlos Santana se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "20",
+                "start_tfs_zulu": "2016-07-07T23:48:17Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "6150efc6-f3c9-4e50-9983-07ade1efb705",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "234817"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Jason Kipnis homers (12) on a fly ball to right center field.  ",
+                "b": "3",
+                "event_num": "157",
+                "b3": "",
+                "score": "T",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "543401",
+                "des_es": "Jason Kipnis batea jonr&#243;n (12) con elevado entre los jardines derecho y central.  ",
+                "rbi": "1",
+                "event_es": "Jonr&#243;n",
+                "num": "21",
+                "start_tfs_zulu": "2016-07-07T23:50:22Z",
+                "s": "1",
+                "event": "Home Run",
+                "b1": "",
+                "play_guid": "55278bb6-903f-40ee-a700-c7d291240730",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "235022"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Francisco Lindor grounds out sharply, shortstop Didi Gregorius to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "162",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "3",
+                "batter": "596019",
+                "des_es": "Francisco Lindor batea rodado de out fuertemente, campo corto Didi Gregorius a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "22",
+                "start_tfs_zulu": "2016-07-07T23:52:45Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "5028da33-a747-42bc-9c73-8edcc323ae67",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "235245"
+              }
+            ]
+          },
+          "top": {
+            "atbat": [
+              {
+                "home_team_runs": "0",
+                "des": "Didi Gregorius grounds out sharply, second baseman Jason Kipnis to first baseman Mike Napoli.  ",
+                "b": "0",
+                "event_num": "96",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "544369",
+                "des_es": "Didi Gregorius batea rodado de out fuertemente, segunda base Jason Kipnis a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "14",
+                "start_tfs_zulu": "2016-07-07T23:35:31Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "4999b2b8-c40e-475f-98e9-74980d750085",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233531"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Chase Headley strikes out swinging.  ",
+                "b": "2",
+                "event_num": "105",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "452104",
+                "des_es": "Chase Headley se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "15",
+                "start_tfs_zulu": "2016-07-07T23:36:17Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "20168e13-9386-43ba-92a7-a9d2d81d9444",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233617"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Rob Refsnyder walks.  ",
+                "b": "4",
+                "event_num": "116",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "608701",
+                "des_es": "Rob Refsnyder recibe base por bolas.  ",
+                "event_es": "Base por Bolas",
+                "num": "16",
+                "start_tfs_zulu": "2016-07-07T23:38:26Z",
+                "s": "2",
+                "event": "Walk",
+                "b1": "608701",
+                "play_guid": "745ffd5c-c0b3-4318-a44e-ea04b77d34e8",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "233826"
+              },
+              {
+                "home_team_runs": "0",
+                "des": "Jacoby Ellsbury flies out to left fielder Rajai Davis.  ",
+                "b": "0",
+                "event_num": "120",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "3",
+                "batter": "453056",
+                "des_es": "Jacoby Ellsbury batea elevado de out a jardinero izquierdo Rajai Davis.  ",
+                "event_es": "Elevado de Out",
+                "num": "17",
+                "start_tfs_zulu": "2016-07-07T23:41:00Z",
+                "s": "0",
+                "event": "Flyout",
+                "b1": "",
+                "play_guid": "f9f72212-2ec2-4ddf-a39e-cdf20f74763f",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, out(s)",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, out(s)"
+                },
+                "away_team_runs": "0",
+                "start_tfs": "234100"
+              }
+            ]
+          }
+        },
+        {
+          "num": "4",
+          "bottom": {
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Mike Napoli strikes out swinging.  ",
+                "b": "3",
+                "event_num": "195",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "435063",
+                "des_es": "Mike Napoli se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "27",
+                "start_tfs_zulu": "2016-07-08T00:01:07Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "22878dce-68a6-479e-b251-f13c69e00c64",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "000107"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Jose Ramirez grounds out, second baseman Starlin Castro to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "203",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "608070",
+                "des_es": "Jose Ramirez batea rodado de out, segunda base Starlin Castro a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "28",
+                "start_tfs_zulu": "2016-07-08T00:03:37Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "54831530-e751-4371-b658-90e5745cd3d0",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "000337"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Lonnie Chisenhall strikes out swinging.  ",
+                "b": "3",
+                "event_num": "212",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "3",
+                "batter": "502082",
+                "des_es": "Lonnie Chisenhall se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "29",
+                "start_tfs_zulu": "2016-07-08T00:05:37Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "91031c39-7c6c-4b7f-9d4c-8aecd9a130e2",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "000537"
+              }
+            ]
+          },
+          "top": {
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Brett Gardner singles on a line drive to left fielder Rajai Davis.  ",
+                "b": "0",
+                "event_num": "168",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "0",
+                "batter": "458731",
+                "des_es": "Brett Gardner pega sencillo con l&#237;nea a jardinero izquierdo Rajai Davis.  ",
+                "event_es": "Sencillo",
+                "num": "23",
+                "start_tfs_zulu": "2016-07-07T23:55:28Z",
+                "s": "1",
+                "event": "Single",
+                "b1": "458731",
+                "play_guid": "a6bc4ae5-c15b-42ff-90bb-717e0f7bc140",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "235528"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Carlos Beltran flies out to left fielder Rajai Davis.  ",
+                "b": "1",
+                "event_num": "173",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "136860",
+                "des_es": "Carlos Beltran batea elevado de out a jardinero izquierdo Rajai Davis.  ",
+                "event_es": "Elevado de Out",
+                "num": "24",
+                "start_tfs_zulu": "2016-07-07T23:56:20Z",
+                "s": "0",
+                "event": "Flyout",
+                "b1": "",
+                "play_guid": "75b6bcc4-44f6-40cd-8616-ace9a81682c9",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "235620"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Brian McCann lines out to right fielder Lonnie Chisenhall.  ",
+                "b": "0",
+                "event_num": "177",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "435263",
+                "des_es": "Brian McCann batea l&#237;nea de out a jardinero derecho Lonnie Chisenhall.  ",
+                "event_es": "L&#237;nea de Out",
+                "num": "25",
+                "start_tfs_zulu": "2016-07-07T23:57:23Z",
+                "s": "0",
+                "event": "Lineout",
+                "b1": "",
+                "play_guid": "96c4de84-e346-4875-972e-64bc25ded11d",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, out(s)",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, out(s)"
+                },
+                "away_team_runs": "0",
+                "start_tfs": "235723"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Mark Teixeira lines out sharply to right fielder Lonnie Chisenhall.  ",
+                "b": "1",
+                "event_num": "183",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "3",
+                "batter": "407893",
+                "des_es": "Mark Teixeira batea l&#237;nea de out fuertemente a jardinero derecho Lonnie Chisenhall.  ",
+                "event_es": "L&#237;nea de Out",
+                "num": "26",
+                "start_tfs_zulu": "2016-07-07T23:58:03Z",
+                "s": "1",
+                "event": "Lineout",
+                "b1": "",
+                "play_guid": "fb1c5d56-7f56-4946-a330-cc4b0a5b8026",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "235803"
+              }
+            ]
+          }
+        },
+        {
+          "num": "5",
+          "bottom": {
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Rajai Davis grounds out, third baseman Chase Headley to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "282",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "434658",
+                "des_es": "Rajai Davis batea rodado de out, tercera base Chase Headley a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "38",
+                "start_tfs_zulu": "2016-07-08T00:25:53Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "aa3f6a78-2a18-4991-8b14-6432800403c7",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "002553"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Tyler Naquin flies out to center fielder Jacoby Ellsbury.  ",
+                "b": "2",
+                "event_num": "288",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "2",
+                "batter": "571980",
+                "des_es": "Tyler Naquin batea elevado de out a jardinero central Jacoby Ellsbury.  ",
+                "event_es": "Elevado de Out",
+                "num": "39",
+                "start_tfs_zulu": "2016-07-08T00:26:51Z",
+                "s": "0",
+                "event": "Flyout",
+                "b1": "",
+                "play_guid": "93362158-c593-4887-88c0-da218e0d83ed",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "002651"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Chris Gimenez called out on strikes.  ",
+                "b": "3",
+                "event_num": "297",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "3",
+                "batter": "460269",
+                "des_es": "Chris Gimenez se poncha sin tirarle.  ",
+                "event_es": "Ponche",
+                "num": "40",
+                "start_tfs_zulu": "2016-07-08T00:27:58Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "6313ce7a-6e8f-453d-b226-bb64d9acef67",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "002758"
+              }
+            ]
+          },
+          "top": {
+            "action": {
+              "home_team_runs": "2",
+              "des": "Coaching visit to mound.  ",
+              "b": "4",
+              "player": "136860",
+              "event_num": "270",
+              "o": "2",
+              "des_es": "Visita del Instructor a la Lomita",
+              "event_es": "Aviso en el Juego",
+              "s": "0",
+              "event": "Game Advisory",
+              "tfs": "002201",
+              "away_team_runs": "2",
+              "tfs_zulu": "2016-07-08T00:22:01Z",
+              "pitch": "4"
+            },
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Starlin Castro grounds out sharply, shortstop Francisco Lindor to first baseman Mike Napoli.  ",
+                "b": "3",
+                "event_num": "222",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "516770",
+                "des_es": "Starlin Castro batea rodado de out fuertemente, campo corto Francisco Lindor a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "30",
+                "start_tfs_zulu": "2016-07-08T00:09:45Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "ba3d29e3-cb41-49d6-b652-3e1f7b73a722",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "0",
+                "start_tfs": "000945"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Didi Gregorius homers (10) on a line drive to right field.  ",
+                "b": "1",
+                "event_num": "229",
+                "b3": "",
+                "score": "T",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "544369",
+                "des_es": "Didi Gregorius batea jonr&#243;n (10) con l&#237;nea por el jard&#237;n derecho.  ",
+                "rbi": "1",
+                "event_es": "Jonr&#243;n",
+                "num": "31",
+                "start_tfs_zulu": "2016-07-08T00:11:35Z",
+                "s": "1",
+                "event": "Home Run",
+                "b1": "",
+                "play_guid": "64198666-1847-4a01-aaf3-24c971333fc6",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "1",
+                "start_tfs": "001135"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Chase Headley singles on a sharp ground ball to left fielder Rajai Davis.  ",
+                "b": "0",
+                "event_num": "233",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "452104",
+                "des_es": "Chase Headley pega sencillo con rodado fuerte a jardinero izquierdo Rajai Davis.  ",
+                "event_es": "Sencillo",
+                "num": "32",
+                "start_tfs_zulu": "2016-07-08T00:12:45Z",
+                "s": "0",
+                "event": "Single",
+                "b1": "452104",
+                "play_guid": "f6e29171-11aa-4abb-ba2a-234db06db8f9",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, no out",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, no out"
+                },
+                "away_team_runs": "1",
+                "start_tfs": "001245"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Rob Refsnyder singles on a ground ball to center fielder Tyler Naquin.   Chase Headley to 2nd.  ",
+                "b": "0",
+                "event_num": "239",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "452104",
+                "o": "1",
+                "batter": "608701",
+                "des_es": "Rob Refsnyder pega sencillo con rodado a jardinero central Tyler Naquin.   Chase Headley a 2da.  ",
+                "event_es": "Sencillo",
+                "num": "33",
+                "start_tfs_zulu": "2016-07-08T00:13:24Z",
+                "s": "1",
+                "event": "Single",
+                "b1": "608701",
+                "play_guid": "42a287a5-6b2e-4201-8e87-0e9686c6afdf",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "1",
+                "start_tfs": "001324"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Jacoby Ellsbury pops out to shortstop Francisco Lindor on the infield fly rule.  ",
+                "b": "3",
+                "event_num": "249",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "453056",
+                "des_es": "Jacoby Ellsbury batea elevadito de out a campo corto Francisco Lindor en jugada de infield fly.  ",
+                "event_es": "Elevado de Out",
+                "num": "34",
+                "start_tfs_zulu": "2016-07-08T00:14:38Z",
+                "s": "2",
+                "event": "Pop Out",
+                "b1": "",
+                "play_guid": "19ff8207-7ef6-46fd-a0cc-4292e2c71447",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball In Dirt",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola por el suelo"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "1",
+                "start_tfs": "001438"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Brett Gardner singles on a ground ball to center fielder Tyler Naquin.   Chase Headley scores.    Rob Refsnyder to 2nd.  ",
+                "b": "1",
+                "event_num": "260",
+                "b3": "",
+                "score": "T",
+                "pitcher": "545333",
+                "b2": "608701",
+                "o": "2",
+                "batter": "458731",
+                "des_es": "Brett Gardner pega sencillo con rodado a jardinero central Tyler Naquin.   Chase Headley anota  Rob Refsnyder a 2da.  ",
+                "rbi": "1",
+                "event_es": "Sencillo",
+                "num": "35",
+                "start_tfs_zulu": "2016-07-08T00:18:15Z",
+                "s": "2",
+                "event": "Single",
+                "b1": "458731",
+                "play_guid": "bd3bc36d-2468-42ad-983d-9fd024fa0225",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "001815"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Carlos Beltran walks.   Rob Refsnyder to 3rd.    Brett Gardner to 2nd.  ",
+                "b": "4",
+                "event_num": "269",
+                "b3": "608701",
+                "pitcher": "545333",
+                "b2": "458731",
+                "o": "2",
+                "batter": "136860",
+                "des_es": "Carlos Beltran recibe base por bolas.   Rob Refsnyder a 3ra.    Brett Gardner a 2da.  ",
+                "event_es": "Base por Bolas",
+                "num": "36",
+                "start_tfs_zulu": "2016-07-08T00:20:40Z",
+                "s": "0",
+                "event": "Walk",
+                "b1": "136860",
+                "play_guid": "59cefd6d-3024-4ee6-89c9-61fffad4f7ca",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "002040"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Brian McCann pops out to second baseman Jason Kipnis.  ",
+                "b": "0",
+                "event_num": "275",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "3",
+                "batter": "435263",
+                "des_es": "Brian McCann batea elevadito de out a segunda base Jason Kipnis.  ",
+                "event_es": "Elevado de Out",
+                "num": "37",
+                "start_tfs_zulu": "2016-07-08T00:22:48Z",
+                "s": "1",
+                "event": "Pop Out",
+                "b1": "",
+                "play_guid": "429e53a1-14d2-4962-9148-80a2cbf18ae5",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "002248"
+              }
+            ]
+          }
+        },
+        {
+          "num": "6",
+          "bottom": {
+            "action": [
+              {
+                "home_team_runs": "3",
+                "des": "With Francisco Lindor batting, wild pitch by Ivan Nova, Carlos Santana scores.    Jason Kipnis to 3rd.  ",
+                "b": "1",
+                "player": "467793",
+                "event_num": "373",
+                "score": "T",
+                "o": "0",
+                "des_es": "Con Francisco Lindor bateando, lanzamiento desviado de Ivan Nova, Carlos Santana anota  Jason Kipnis a 3ra.  ",
+                "event_es": "Lanzamiento Descontrolado",
+                "s": "0",
+                "event": "Wild Pitch",
+                "tfs": "005133",
+                "play_guid": "02bbcae5-0cf6-4c12-96df-1ebdfc20af97",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T00:51:33Z",
+                "pitch": "1"
+              },
+              {
+                "home_team_runs": "3",
+                "des": "Coaching visit to mound.  ",
+                "b": "2",
+                "player": "596019",
+                "event_num": "381",
+                "o": "1",
+                "des_es": "Visita del Instructor a la Lomita",
+                "event_es": "Aviso en el Juego",
+                "s": "2",
+                "event": "Game Advisory",
+                "tfs": "005423",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T00:54:23Z",
+                "pitch": "6"
+              },
+              {
+                "home_team_runs": "3",
+                "des": "Pitching Change: Dellin Betances replaces Ivan Nova.  ",
+                "b": "0",
+                "player": "476454",
+                "event_num": "383",
+                "o": "1",
+                "des_es": "Cambio de Lanzador: Dellin Betances reemplaza a Ivan Nova.  ",
+                "event_es": "Cambio de Lanzador",
+                "s": "0",
+                "event": "Pitching Substitution",
+                "tfs": "005603",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T00:56:03Z",
+                "pitch": "6"
+              }
+            ],
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Carlos Santana doubles (16) on a sharp line drive to center fielder Jacoby Ellsbury.  ",
+                "b": "0",
+                "event_num": "361",
+                "b3": "",
+                "pitcher": "467100",
+                "b2": "467793",
+                "o": "0",
+                "batter": "467793",
+                "des_es": "Carlos Santana pega doble (16) con l&#237;nea fuerte a jardinero central Jacoby Ellsbury.  ",
+                "event_es": "Doble",
+                "num": "48",
+                "start_tfs_zulu": "2016-07-08T00:48:58Z",
+                "s": "0",
+                "event": "Double",
+                "b1": "",
+                "play_guid": "45b06577-68a5-4d79-915b-b1d9b7a836e3",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, no out",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, no out"
+                },
+                "away_team_runs": "5",
+                "start_tfs": "004858"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Jason Kipnis doubles (17) on a line drive to right fielder Rob Refsnyder, deflected by center fielder Jacoby Ellsbury.   Carlos Santana to 3rd.  ",
+                "b": "0",
+                "event_num": "366",
+                "b3": "467793",
+                "pitcher": "467100",
+                "b2": "543401",
+                "o": "0",
+                "batter": "543401",
+                "des_es": "Jason Kipnis pega doble (17) con l&#237;nea a jardinero derecho Rob Refsnyder, desviada por jardinero central Jacoby Ellsbury.   Carlos Santana a 3ra.  ",
+                "event_es": "Doble",
+                "num": "49",
+                "start_tfs_zulu": "2016-07-08T00:49:57Z",
+                "s": "0",
+                "event": "Double",
+                "b1": "",
+                "play_guid": "a690759a-8507-4be5-aae4-253b9020b92a",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, no out",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, no out"
+                },
+                "away_team_runs": "5",
+                "start_tfs": "004957"
+              },
+              {
+                "home_team_runs": "3",
+                "des": "Francisco Lindor grounds out to first baseman Mark Teixeira.  ",
+                "b": "2",
+                "event_num": "380",
+                "b3": "543401",
+                "pitcher": "467100",
+                "b2": "",
+                "o": "1",
+                "batter": "596019",
+                "des_es": "Francisco Lindor batea rodado de out a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "50",
+                "start_tfs_zulu": "2016-07-08T00:50:57Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "56865d6c-a7a9-4fed-8972-a185c5fa4185",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "005057"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Mike Napoli grounds out, third baseman Chase Headley to first baseman Mark Teixeira.   Jason Kipnis scores.  ",
+                "b": "2",
+                "event_num": "393",
+                "b3": "",
+                "score": "T",
+                "pitcher": "476454",
+                "b2": "",
+                "o": "2",
+                "batter": "435063",
+                "des_es": "Mike Napoli batea rodado de out a primera base Mark Teixeira en jugada de infield fly.   Jason Kipnis anota.  ",
+                "rbi": "1",
+                "event_es": "Roletazo de Out",
+                "num": "51",
+                "start_tfs_zulu": "2016-07-08T00:57:17Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "89ce6911-c894-4cae-b334-159f8a74e484",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "005717"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Jose Ramirez grounds out, shortstop Didi Gregorius to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "400",
+                "b3": "",
+                "pitcher": "476454",
+                "b2": "",
+                "o": "3",
+                "batter": "608070",
+                "des_es": "Jose Ramirez batea rodado de out, campo corto Didi Gregorius a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "52",
+                "start_tfs_zulu": "2016-07-08T00:59:24Z",
+                "s": "2",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "4b7634d8-5176-433a-9cbe-ab8fb1655a98",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "005924"
+              }
+            ]
+          },
+          "top": {
+            "action": [
+              {
+                "home_team_runs": "2",
+                "des": "Coaching visit to mound.  ",
+                "b": "0",
+                "player": "608701",
+                "event_num": "335",
+                "o": "2",
+                "des_es": "Visita del Instructor a la Lomita",
+                "event_es": "Aviso en el Juego",
+                "s": "1",
+                "event": "Game Advisory",
+                "tfs": "004008",
+                "away_team_runs": "4",
+                "tfs_zulu": "2016-07-08T00:40:08Z",
+                "pitch": "2"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Pitching Change: TJ House replaces Trevor Bauer.  ",
+                "b": "0",
+                "player": "543334",
+                "event_num": "337",
+                "o": "2",
+                "des_es": "Cambio de Lanzador: TJ House reemplaza a Trevor Bauer.  ",
+                "event_es": "Cambio de Lanzador",
+                "s": "0",
+                "event": "Pitching Substitution",
+                "tfs": "004101",
+                "away_team_runs": "4",
+                "tfs_zulu": "2016-07-08T00:41:01Z",
+                "pitch": "2"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "With Brett Gardner batting, Jacoby Ellsbury picked off and caught stealing 2nd base, pitcher TJ House to first baseman Mike Napoli to shortstop Francisco Lindor.  ",
+                "b": "1",
+                "player": "453056",
+                "event_num": "356",
+                "o": "3",
+                "des_es": "Con Brett Gardner bateando, Jacoby Ellsbury sorprendido fuera de base y atrapado robando la 2da base, lanzador TJ House a primera base Mike Napoli a campo corto Francisco Lindor.  ",
+                "event_es": "Retirado en Viraje en Intento de Robo 2B",
+                "s": "0",
+                "event": "Picked off stealing 2B",
+                "tfs": "004656",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T00:46:56Z",
+                "pitch": "1"
+              }
+            ],
+            "atbat": [
+              {
+                "home_team_runs": "2",
+                "des": "Mark Teixeira grounds out, second baseman Jason Kipnis to first baseman Mike Napoli.  ",
+                "b": "3",
+                "event_num": "306",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "407893",
+                "des_es": "Mark Teixeira batea rodado de out, segunda base Jason Kipnis a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "41",
+                "start_tfs_zulu": "2016-07-08T00:32:03Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "6f756fe0-900e-465d-9930-bc749431bc00",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "2",
+                "start_tfs": "003203"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Starlin Castro singles on a line drive to right fielder Lonnie Chisenhall.  ",
+                "b": "0",
+                "event_num": "310",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "1",
+                "batter": "516770",
+                "des_es": "Starlin Castro pega sencillo con l&#237;nea a jardinero derecho Lonnie Chisenhall.  ",
+                "event_es": "Sencillo",
+                "num": "42",
+                "start_tfs_zulu": "2016-07-08T00:33:49Z",
+                "s": "0",
+                "event": "Single",
+                "b1": "516770",
+                "play_guid": "951d1403-f324-4072-905b-3188b0d4a7a8",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, no out",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, no out"
+                },
+                "away_team_runs": "2",
+                "start_tfs": "003349"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Didi Gregorius singles on a sharp ground ball to center fielder Tyler Naquin.   Starlin Castro to 2nd.  ",
+                "b": "0",
+                "event_num": "315",
+                "b3": "",
+                "pitcher": "545333",
+                "b2": "516770",
+                "o": "1",
+                "batter": "544369",
+                "des_es": "Didi Gregorius pega sencillo con rodado fuerte a jardinero central Tyler Naquin.   Starlin Castro a 2da.  ",
+                "event_es": "Sencillo",
+                "num": "43",
+                "start_tfs_zulu": "2016-07-08T00:34:30Z",
+                "s": "0",
+                "event": "Single",
+                "b1": "544369",
+                "play_guid": "7f3de535-a48c-4518-81bf-d3669ae23f6b",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, no out",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, no out"
+                },
+                "away_team_runs": "2",
+                "start_tfs": "003430"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Yankees challenged (tag play), call on the field was overturned: Chase Headley singles on a line drive to right fielder Lonnie Chisenhall.   Starlin Castro scores.    Didi Gregorius to 3rd on the throw.    Chase Headley to 2nd.  ",
+                "b": "0",
+                "event_num": "327",
+                "b3": "544369",
+                "score": "T",
+                "pitcher": "545333",
+                "b2": "452104",
+                "o": "1",
+                "batter": "452104",
+                "des_es": "Yankees reto (tocar al corredor) sustentado, se cambia la decisi&#243;n: Chase Headley pega sencillo con l&#237;nea a jardinero derecho Lonnie Chisenhall.   Starlin Castro anota  Didi Gregorius a 3ra con el tiro.    Chase Headley a 2da.  ",
+                "rbi": "1",
+                "event_es": "Sencillo",
+                "num": "44",
+                "start_tfs_zulu": "2016-07-08T00:35:22Z",
+                "s": "1",
+                "event": "Single",
+                "b1": "",
+                "play_guid": "e3f99a21-4d06-45c3-b4e0-972fae506013",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "3",
+                "start_tfs": "003522"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Rob Refsnyder out on a sacrifice fly to left fielder Rajai Davis.   Didi Gregorius scores.  ",
+                "b": "0",
+                "event_num": "334",
+                "b3": "",
+                "score": "T",
+                "pitcher": "545333",
+                "b2": "",
+                "o": "2",
+                "batter": "608701",
+                "des_es": "Rob Refsnyder out con elevado de sacrificio a jardinero izquierdo Rajai Davis.   Didi Gregorius anota.  ",
+                "rbi": "1",
+                "event_es": "Elevado de Sacrificio",
+                "num": "45",
+                "start_tfs_zulu": "2016-07-08T00:39:16Z",
+                "s": "1",
+                "event": "Sac Fly",
+                "b1": "",
+                "play_guid": "6fe2d53e-3ff3-49bb-bcfa-6a0a620e5b2d",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "4",
+                "start_tfs": "003916"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "Jacoby Ellsbury singles on a soft line drive to left fielder Rajai Davis.   Chase Headley scores.  ",
+                "b": "2",
+                "event_num": "349",
+                "b3": "",
+                "score": "T",
+                "pitcher": "543334",
+                "b2": "",
+                "o": "2",
+                "batter": "453056",
+                "des_es": "Jacoby Ellsbury pega sencillo con l&#237;nea suave a jardinero izquierdo Rajai Davis.   Chase Headley anota.  ",
+                "rbi": "1",
+                "event_es": "Sencillo",
+                "num": "46",
+                "start_tfs_zulu": "2016-07-08T00:42:31Z",
+                "s": "2",
+                "event": "Single",
+                "b1": "453056",
+                "play_guid": "f6ddedbf-bc8b-4f5b-b2e9-b602b3089042",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball In Dirt",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola por el suelo"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, run(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, carrera(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "004231"
+              },
+              {
+                "home_team_runs": "2",
+                "des": "With Brett Gardner batting, Jacoby Ellsbury picked off and caught stealing 2nd base, pitcher TJ House to first baseman Mike Napoli to shortstop Francisco Lindor.  ",
+                "b": "1",
+                "event_num": "356",
+                "b3": "",
+                "pitcher": "543334",
+                "b2": "",
+                "o": "3",
+                "batter": "458731",
+                "des_es": "Con Brett Gardner bateando, Jacoby Ellsbury sorprendido fuera de base y atrapado robando la 2da base, lanzador TJ House a primera base Mike Napoli a campo corto Francisco Lindor.  ",
+                "event_es": "Corredor Out",
+                "num": "47",
+                "start_tfs_zulu": "2016-07-08T00:45:52Z",
+                "s": "0",
+                "event": "Runner Out",
+                "b1": "",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "Ball",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "B",
+                  "des_es": "Bola mala"
+                },
+                "away_team_runs": "5",
+                "start_tfs": "004552"
+              }
+            ]
+          }
+        },
+        {
+          "num": "7",
+          "bottom": {
+            "action": [
+              {
+                "home_team_runs": "4",
+                "des": "Defensive Substitution: Aaron Hicks replaces right fielder Rob Refsnyder, batting 9th, playing right field.  ",
+                "b": "0",
+                "player": "543305",
+                "event_num": "424",
+                "o": "0",
+                "des_es": "Sustituci&#243;n a la Defensiva: Aaron Hicks reemplaza a jardinero derecho Rob Refsnyder, como noveno bate y jugando en el jardinero derecho.  ",
+                "event_es": "Sustituci&#243;n Defensiva",
+                "s": "0",
+                "event": "Defensive Sub",
+                "tfs": "010926",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:09:26Z",
+                "pitch": "4"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Offensive Substitution: Pinch-hitter Abraham Almonte replaces Chris Gimenez.  ",
+                "b": "0",
+                "player": "501659",
+                "event_num": "445",
+                "o": "2",
+                "des_es": "Sustituci&#243;n a la ofensiva: bateador emergente Abraham Almonte reemplaza a Chris Gimenez.  ",
+                "event_es": "Cambio Defensivo",
+                "s": "0",
+                "event": "Offensive Sub",
+                "tfs": "011348",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:13:48Z",
+                "pitch": "3"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "With Abraham Almonte batting, Tyler Naquin steals (3) 2nd base.  ",
+                "b": "0",
+                "player": "571980",
+                "event_num": "451",
+                "o": "2",
+                "des_es": "Con Abraham Almonte bateando, Tyler Naquin se roba (3) la 2da base.  ",
+                "event_es": "Base Robada 2B",
+                "s": "2",
+                "event": "Stolen Base 2B",
+                "tfs": "011459",
+                "play_guid": "4dbf26b2-2f7d-4ce5-8448-13de599092d3",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:14:59Z",
+                "pitch": "2"
+              }
+            ],
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Lonnie Chisenhall grounds out, shortstop Didi Gregorius to first baseman Mark Teixeira.  ",
+                "b": "2",
+                "event_num": "431",
+                "b3": "",
+                "pitcher": "476454",
+                "b2": "",
+                "o": "1",
+                "batter": "502082",
+                "des_es": "Lonnie Chisenhall batea rodado de out, campo corto Didi Gregorius a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "56",
+                "start_tfs_zulu": "2016-07-08T01:09:27Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "aa274996-a090-4c7d-9ffc-f15649ea588f",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "010927"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Rajai Davis strikes out swinging.  ",
+                "b": "0",
+                "event_num": "437",
+                "b3": "",
+                "pitcher": "476454",
+                "b2": "",
+                "o": "2",
+                "batter": "434658",
+                "des_es": "Rajai Davis se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "57",
+                "start_tfs_zulu": "2016-07-08T01:11:05Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "9c2c45bf-eb97-44f2-af43-12ef798d20e2",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "011105"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Tyler Naquin singles on a ground ball to right fielder Aaron Hicks.  ",
+                "b": "1",
+                "event_num": "443",
+                "b3": "",
+                "pitcher": "476454",
+                "b2": "",
+                "o": "2",
+                "batter": "571980",
+                "des_es": "Tyler Naquin pega sencillo con rodado a jardinero derecho Aaron Hicks.  ",
+                "event_es": "Sencillo",
+                "num": "58",
+                "start_tfs_zulu": "2016-07-08T01:12:34Z",
+                "s": "1",
+                "event": "Single",
+                "b1": "571980",
+                "play_guid": "306fa480-220c-42c2-a40d-36ad0ba63c67",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "011234"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Abraham Almonte strikes out swinging, catcher Brian McCann to first baseman Mark Teixeira.  ",
+                "b": "0",
+                "event_num": "454",
+                "b3": "",
+                "pitcher": "476454",
+                "b2": "571980",
+                "o": "3",
+                "batter": "501659",
+                "des_es": "Abraham Almonte se poncha tir&#225;ndole, receptor Brian McCann a primera base Mark Teixeira.  ",
+                "event_es": "Ponche",
+                "num": "59",
+                "start_tfs_zulu": "2016-07-08T01:14:15Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "e5385874-b7e5-44b3-9b02-e0b097b86af5",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul Tip",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul atr&#225;s"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "011415"
+              }
+            ]
+          },
+          "top": {
+            "action": {
+              "home_team_runs": "4",
+              "des": "Pitching Change: Dan Otero replaces TJ House.  ",
+              "b": "0",
+              "player": "519096",
+              "event_num": "403",
+              "o": "0",
+              "des_es": "Cambio de Lanzador: Dan Otero reemplaza a TJ House.  ",
+              "event_es": "Cambio de Lanzador",
+              "s": "0",
+              "event": "Pitching Substitution",
+              "tfs": "010247",
+              "away_team_runs": "5",
+              "tfs_zulu": "2016-07-08T01:02:47Z",
+              "pitch": "4"
+            },
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Brett Gardner called out on strikes.  ",
+                "b": "0",
+                "event_num": "409",
+                "b3": "",
+                "pitcher": "519096",
+                "b2": "",
+                "o": "1",
+                "batter": "458731",
+                "des_es": "Brett Gardner se poncha sin tirarle.  ",
+                "event_es": "Ponche",
+                "num": "53",
+                "start_tfs_zulu": "2016-07-08T01:03:21Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "6eb90b46-2395-458f-b9b9-f9844f735dd8",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "010321"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Carlos Beltran grounds out, pitcher Dan Otero to first baseman Mike Napoli.  ",
+                "b": "1",
+                "event_num": "414",
+                "b3": "",
+                "pitcher": "519096",
+                "b2": "",
+                "o": "2",
+                "batter": "136860",
+                "des_es": "Carlos Beltran batea rodado de out, lanzador Dan Otero a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "54",
+                "start_tfs_zulu": "2016-07-08T01:04:33Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "35d1a9db-be79-4eb1-875e-696458904eaa",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "010433"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Brian McCann strikes out swinging.  ",
+                "b": "0",
+                "event_num": "421",
+                "b3": "",
+                "pitcher": "519096",
+                "b2": "",
+                "o": "3",
+                "batter": "435263",
+                "des_es": "Brian McCann se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "55",
+                "start_tfs_zulu": "2016-07-08T01:05:23Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "72cd84fa-b705-4a6c-94f2-1d470fffb369",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike (Blocked)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole (Bloqueado)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "010523"
+              }
+            ]
+          }
+        },
+        {
+          "num": "8",
+          "bottom": {
+            "action": {
+              "home_team_runs": "4",
+              "des": "Pitching Change: Andrew Miller replaces Dellin Betances.  ",
+              "b": "0",
+              "player": "453192",
+              "event_num": "500",
+              "o": "0",
+              "des_es": "Cambio de Lanzador: Andrew Miller reemplaza a Dellin Betances.  ",
+              "event_es": "Cambio de Lanzador",
+              "s": "0",
+              "event": "Pitching Substitution",
+              "tfs": "012815",
+              "away_team_runs": "5",
+              "tfs_zulu": "2016-07-08T01:28:15Z",
+              "pitch": "1"
+            },
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Carlos Santana grounds out, shortstop Didi Gregorius to first baseman Mark Teixeira.  ",
+                "b": "1",
+                "event_num": "506",
+                "b3": "",
+                "pitcher": "453192",
+                "b2": "",
+                "o": "1",
+                "batter": "467793",
+                "des_es": "Carlos Santana batea rodado de out, campo corto Didi Gregorius a primera base Mark Teixeira.  ",
+                "event_es": "Roletazo de Out",
+                "num": "65",
+                "start_tfs_zulu": "2016-07-08T01:29:55Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "b1abaac4-1e3d-4d81-82b0-44facf9df239",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "012955"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Jason Kipnis called out on strikes.  ",
+                "b": "1",
+                "event_num": "514",
+                "b3": "",
+                "pitcher": "453192",
+                "b2": "",
+                "o": "2",
+                "batter": "543401",
+                "des_es": "Jason Kipnis se poncha sin tirarle.  ",
+                "event_es": "Ponche",
+                "num": "66",
+                "start_tfs_zulu": "2016-07-08T01:31:11Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "00e75d1c-0186-49c3-a3aa-4e31507d0f5c",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "013111"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Francisco Lindor lines out sharply to center fielder Jacoby Ellsbury.  ",
+                "b": "1",
+                "event_num": "521",
+                "b3": "",
+                "pitcher": "453192",
+                "b2": "",
+                "o": "3",
+                "batter": "596019",
+                "des_es": "Francisco Lindor batea l&#237;nea de out fuertemente a jardinero central Jacoby Ellsbury.  ",
+                "event_es": "L&#237;nea de Out",
+                "num": "67",
+                "start_tfs_zulu": "2016-07-08T01:33:17Z",
+                "s": "2",
+                "event": "Lineout",
+                "b1": "",
+                "play_guid": "d27f0fda-e4cf-464a-9b7b-2bde8548f58a",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "013317"
+              }
+            ]
+          },
+          "top": {
+            "action": [
+              {
+                "home_team_runs": "4",
+                "des": "Defensive Substitution: Yan Gomes replaces Abraham Almonte, batting 9th, playing catcher.  ",
+                "b": "0",
+                "player": "543228",
+                "event_num": "458",
+                "o": "0",
+                "des_es": "Sustituci&#243;n a la Defensiva: Yan Gomes reemplaza a Abraham Almonte, como noveno bate y jugando en el receptor.  ",
+                "event_es": "Sustituci&#243;n Defensiva",
+                "s": "0",
+                "event": "Defensive Sub",
+                "tfs": "011742",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:17:42Z",
+                "pitch": "3"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Pitching Change: Bryan Shaw replaces Dan Otero.  ",
+                "b": "0",
+                "player": "543766",
+                "event_num": "460",
+                "o": "0",
+                "des_es": "Cambio de Lanzador: Bryan Shaw reemplaza a Dan Otero.  ",
+                "event_es": "Cambio de Lanzador",
+                "s": "0",
+                "event": "Pitching Substitution",
+                "tfs": "011742",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:17:42Z",
+                "pitch": "3"
+              }
+            ],
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Mark Teixeira walks.  ",
+                "b": "4",
+                "event_num": "469",
+                "b3": "",
+                "pitcher": "543766",
+                "b2": "",
+                "o": "0",
+                "batter": "407893",
+                "des_es": "Mark Teixeira recibe base por bolas.  ",
+                "event_es": "Base por Bolas",
+                "num": "60",
+                "start_tfs_zulu": "2016-07-08T01:18:44Z",
+                "s": "2",
+                "event": "Walk",
+                "b1": "407893",
+                "play_guid": "a019b756-5d48-4ddf-9c12-4fdd30748b37",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "011844"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Starlin Castro strikes out swinging.  ",
+                "b": "0",
+                "event_num": "475",
+                "b3": "",
+                "pitcher": "543766",
+                "b2": "",
+                "o": "1",
+                "batter": "516770",
+                "des_es": "Starlin Castro se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "61",
+                "start_tfs_zulu": "2016-07-08T01:20:49Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "909cbba6-b1e6-42a9-ad37-1c0bbc436db3",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "012049"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Didi Gregorius grounds into a force out, shortstop Francisco Lindor to second baseman Jason Kipnis.   Mark Teixeira out at 2nd.    Didi Gregorius to 1st.  ",
+                "b": "0",
+                "event_num": "481",
+                "b3": "",
+                "pitcher": "543766",
+                "b2": "",
+                "o": "2",
+                "batter": "544369",
+                "des_es": "Didi Gregorius batea rodado batea para out forzado, campo corto Francisco Lindor a segunda base Jason Kipnis.   Mark Teixeira a cabo a 2da.    Didi Gregorius a 1ra.  ",
+                "event_es": "Out Forzado",
+                "num": "62",
+                "start_tfs_zulu": "2016-07-08T01:22:14Z",
+                "s": "1",
+                "event": "Forceout",
+                "b1": "544369",
+                "play_guid": "0184ddaa-9bb5-4815-b3a3-bf101e9dcb33",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "012214"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Chase Headley walks.   Didi Gregorius to 2nd.  ",
+                "b": "4",
+                "event_num": "492",
+                "b3": "",
+                "pitcher": "543766",
+                "b2": "544369",
+                "o": "2",
+                "batter": "452104",
+                "des_es": "Chase Headley recibe base por bolas.   Didi Gregorius a 2da.  ",
+                "event_es": "Base por Bolas",
+                "num": "63",
+                "start_tfs_zulu": "2016-07-08T01:23:42Z",
+                "s": "2",
+                "event": "Walk",
+                "b1": "452104",
+                "play_guid": "4468dd40-9e64-42bb-8a92-5b066861886b",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "012342"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Aaron Hicks grounds out, second baseman Jason Kipnis to first baseman Mike Napoli.  ",
+                "b": "0",
+                "event_num": "496",
+                "b3": "",
+                "pitcher": "543766",
+                "b2": "",
+                "o": "3",
+                "batter": "543305",
+                "des_es": "Aaron Hicks batea rodado de out, segunda base Jason Kipnis a primera base Mike Napoli.  ",
+                "event_es": "Roletazo de Out",
+                "num": "64",
+                "start_tfs_zulu": "2016-07-08T01:26:59Z",
+                "s": "0",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "041e4a15-433e-4f8f-b134-fbc69a11bf5b",
+                "pitch": {
+                  "start_speed": "",
+                  "des": "In play, out(s)",
+                  "sv_id": "",
+                  "pitch_type": "",
+                  "type": "X",
+                  "des_es": "En juego, out(s)"
+                },
+                "away_team_runs": "5",
+                "start_tfs": "012659"
+              }
+            ]
+          }
+        },
+        {
+          "num": "9",
+          "bottom": {
+            "action": [
+              {
+                "home_team_runs": "4",
+                "des": "Pitching Change: Aroldis Chapman replaces Andrew Miller.  ",
+                "b": "0",
+                "player": "547973",
+                "event_num": "567",
+                "o": "0",
+                "des_es": "Cambio de Lanzador: Aroldis Chapman reemplaza a Andrew Miller.  ",
+                "event_es": "Cambio de Lanzador",
+                "s": "0",
+                "event": "Pitching Substitution",
+                "tfs": "015053",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:50:53Z",
+                "pitch": "4"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Offensive Substitution: Pinch-hitter Juan Uribe replaces Lonnie Chisenhall.  ",
+                "b": "0",
+                "player": "346874",
+                "event_num": "587",
+                "o": "1",
+                "des_es": "Sustituci&#243;n a la ofensiva: bateador emergente Juan Uribe reemplaza a Lonnie Chisenhall.  ",
+                "event_es": "Cambio Defensivo",
+                "s": "0",
+                "event": "Offensive Sub",
+                "tfs": "015739",
+                "away_team_runs": "5",
+                "tfs_zulu": "2016-07-08T01:57:39Z",
+                "pitch": "6"
+              }
+            ],
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Mike Napoli walks.  ",
+                "b": "4",
+                "event_num": "576",
+                "b3": "",
+                "pitcher": "547973",
+                "b2": "",
+                "o": "0",
+                "batter": "435063",
+                "des_es": "Mike Napoli recibe base por bolas.  ",
+                "event_es": "Base por Bolas",
+                "num": "73",
+                "start_tfs_zulu": "2016-07-08T01:52:00Z",
+                "s": "2",
+                "event": "Walk",
+                "b1": "435063",
+                "play_guid": "ee6c598f-ed7d-4d87-a1f8-5bc7970d61af",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "015200"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Jose Ramirez strikes out swinging.  ",
+                "b": "0",
+                "event_num": "585",
+                "b3": "",
+                "pitcher": "547973",
+                "b2": "",
+                "o": "1",
+                "batter": "608070",
+                "des_es": "Jose Ramirez se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "74",
+                "start_tfs_zulu": "2016-07-08T01:54:31Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "878d396c-5b80-4b5d-b5d2-4f5a07955634",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "015431"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Juan Uribe singles on a line drive to left fielder Brett Gardner.   Mike Napoli to 2nd.  ",
+                "b": "2",
+                "event_num": "599",
+                "b3": "",
+                "pitcher": "547973",
+                "b2": "435063",
+                "o": "1",
+                "batter": "346874",
+                "des_es": "Juan Uribe pega sencillo con l&#237;nea a jardinero izquierdo Brett Gardner.   Mike Napoli a 2da.  ",
+                "event_es": "Sencillo",
+                "num": "75",
+                "start_tfs_zulu": "2016-07-08T01:57:55Z",
+                "s": "2",
+                "event": "Single",
+                "b1": "346874",
+                "play_guid": "65a481e4-78b1-49ef-9261-25045cc576ae",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "015755"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Rajai Davis lines out to left fielder Brett Gardner.  ",
+                "b": "0",
+                "event_num": "607",
+                "b3": "",
+                "pitcher": "547973",
+                "b2": "",
+                "o": "2",
+                "batter": "434658",
+                "des_es": "Rajai Davis batea l&#237;nea de out a jardinero izquierdo Brett Gardner.  ",
+                "event_es": "L&#237;nea de Out",
+                "num": "76",
+                "start_tfs_zulu": "2016-07-08T02:02:24Z",
+                "s": "2",
+                "event": "Lineout",
+                "b1": "",
+                "play_guid": "ea71f323-6fe2-425d-a315-28e22129a43f",
+                "pitch": [
+                  {
+                    "start_speed": "87.6",
+                    "des": "Swinging Strike",
+                    "sv_id": "160707_220455",
+                    "pitch_type": "SL",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "101.2",
+                    "des": "Called Strike",
+                    "sv_id": "160707_220526",
+                    "pitch_type": "FF",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "101.2",
+                    "des": "Foul",
+                    "sv_id": "160707_220602",
+                    "pitch_type": "FF",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "88.7",
+                    "des": "Foul",
+                    "sv_id": "160707_220632",
+                    "pitch_type": "SL",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "88.6",
+                    "des": "In play, out(s)",
+                    "sv_id": "160707_220715",
+                    "pitch_type": "CH",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "020224"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Yankees challenged (play at 1st), call on the field was overturned: Tyler Naquin grounds out, first baseman Mark Teixeira to second baseman Starlin Castro to pitcher Aroldis Chapman.  ",
+                "b": "1",
+                "event_num": "614",
+                "b3": "",
+                "pitcher": "547973",
+                "b2": "",
+                "o": "3",
+                "batter": "571980",
+                "des_es": "Yankees reto (jugada en la 1ra) sustentado, se cambia la decisi&#243;n: Tyler Naquin batea rodado de out, primera base Mark Teixeira a segunda base Starlin Castro a lanzador Aroldis Chapman.  ",
+                "event_es": "Roletazo de Out",
+                "num": "77",
+                "start_tfs_zulu": "2016-07-08T02:06:02Z",
+                "s": "1",
+                "event": "Groundout",
+                "b1": "",
+                "play_guid": "d1ac9891-f5eb-43d9-a096-c0b036aad8f0",
+                "pitch": [
+                  {
+                    "start_speed": "100.4",
+                    "des": "Ball",
+                    "sv_id": "160707_220938",
+                    "pitch_type": "FF",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "88.1",
+                    "des": "Called Strike",
+                    "sv_id": "160707_221001",
+                    "pitch_type": "SL",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "87.7",
+                    "des": "In play, out(s)",
+                    "sv_id": "160707_221026",
+                    "pitch_type": "SL",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "020602"
+              }
+            ]
+          },
+          "top": {
+            "action": {
+              "home_team_runs": "4",
+              "des": "Pitching Change: Cody Allen replaces Bryan Shaw.  ",
+              "b": "0",
+              "player": "592102",
+              "event_num": "524",
+              "o": "0",
+              "des_es": "Cambio de Lanzador: Cody Allen reemplaza a Bryan Shaw.  ",
+              "event_es": "Cambio de Lanzador",
+              "s": "0",
+              "event": "Pitching Substitution",
+              "tfs": "013542",
+              "away_team_runs": "5",
+              "tfs_zulu": "2016-07-08T01:35:42Z",
+              "pitch": "4"
+            },
+            "atbat": [
+              {
+                "home_team_runs": "4",
+                "des": "Jacoby Ellsbury singles on a ground ball to right fielder Lonnie Chisenhall.  ",
+                "b": "1",
+                "event_num": "532",
+                "b3": "",
+                "pitcher": "592102",
+                "b2": "",
+                "o": "0",
+                "batter": "453056",
+                "des_es": "Jacoby Ellsbury pega sencillo con rodado a jardinero derecho Lonnie Chisenhall.  ",
+                "event_es": "Sencillo",
+                "num": "68",
+                "start_tfs_zulu": "2016-07-08T01:37:21Z",
+                "s": "2",
+                "event": "Single",
+                "b1": "453056",
+                "play_guid": "dbbb3a98-1488-4fe8-8dd6-a8619291e974",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "013721"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Brett Gardner strikes out swinging.  ",
+                "b": "2",
+                "event_num": "542",
+                "b3": "",
+                "pitcher": "592102",
+                "b2": "",
+                "o": "1",
+                "batter": "458731",
+                "des_es": "Brett Gardner se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "69",
+                "start_tfs_zulu": "2016-07-08T01:39:58Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "3cf740c3-3c58-4840-8c84-990ec4fdeb7b",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "013958"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Carlos Beltran pops out to shortstop Francisco Lindor.  ",
+                "b": "1",
+                "event_num": "548",
+                "b3": "",
+                "pitcher": "592102",
+                "b2": "",
+                "o": "2",
+                "batter": "136860",
+                "des_es": "Carlos Beltran batea elevadito de out a campo corto Francisco Lindor.  ",
+                "event_es": "Elevado de Out",
+                "num": "70",
+                "start_tfs_zulu": "2016-07-08T01:43:48Z",
+                "s": "0",
+                "event": "Pop Out",
+                "b1": "",
+                "play_guid": "50f0e669-a1e8-40fe-9a47-697c38c15d80",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, out(s)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, out(s)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "014348"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Brian McCann singles on a sharp line drive to right fielder Lonnie Chisenhall.   Jacoby Ellsbury to 3rd.  ",
+                "b": "2",
+                "event_num": "556",
+                "b3": "453056",
+                "pitcher": "592102",
+                "b2": "",
+                "o": "2",
+                "batter": "435263",
+                "des_es": "Brian McCann pega sencillo con l&#237;nea fuerte a jardinero derecho Lonnie Chisenhall.   Jacoby Ellsbury a 3ra.  ",
+                "event_es": "Sencillo",
+                "num": "71",
+                "start_tfs_zulu": "2016-07-08T01:45:25Z",
+                "s": "0",
+                "event": "Single",
+                "b1": "435263",
+                "play_guid": "6540486d-d405-44d2-84de-419bf2338f5b",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "In play, no out",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "X",
+                    "des_es": "En juego, no out"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "014525"
+              },
+              {
+                "home_team_runs": "4",
+                "des": "Mark Teixeira strikes out swinging.  ",
+                "b": "1",
+                "event_num": "563",
+                "b3": "",
+                "pitcher": "592102",
+                "b2": "",
+                "o": "3",
+                "batter": "407893",
+                "des_es": "Mark Teixeira se poncha tir&#225;ndole.  ",
+                "event_es": "Ponche",
+                "num": "72",
+                "start_tfs_zulu": "2016-07-08T01:47:35Z",
+                "s": "3",
+                "event": "Strikeout",
+                "b1": "",
+                "play_guid": "7d1385b7-c391-4151-b732-d1e8a3fb242a",
+                "pitch": [
+                  {
+                    "start_speed": "",
+                    "des": "Foul",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Foul"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Called Strike",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike cantado"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Ball",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "B",
+                    "des_es": "Bola mala"
+                  },
+                  {
+                    "start_speed": "",
+                    "des": "Swinging Strike (Blocked)",
+                    "sv_id": "",
+                    "pitch_type": "",
+                    "type": "S",
+                    "des_es": "Strike tir&#225;ndole (Bloqueado)"
+                  }
+                ],
+                "away_team_runs": "5",
+                "start_tfs": "014735"
+              }
+            ]
+          }
+        }
+      ],
+      "atBat": {
+        "pid": "571980"
+      },
+      "deck": {
+        "pid": "543228"
+      },
+      "hole": {
+        "pid": "467793"
+      }
+    }
+  }
+}
