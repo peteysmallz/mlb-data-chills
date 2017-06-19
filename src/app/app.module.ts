@@ -22,6 +22,8 @@ import {LeaderboardService} from './services/player/leaderboard.service';
 import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
 import { BoxscoreComponent } from './components/boxscore/boxscore.component';
 import { BasesLiveComponent } from './components/bases-live/bases-live.component';
+import { ScorecardExtendedComponent } from './components/scorecard-extended/scorecard-extended.component';
+import { BallsStrikesOutsComponent } from './components/balls-strikes-outs/balls-strikes-outs.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { BasesLiveComponent } from './components/bases-live/bases-live.component
     ScoreboardComponent,
     LeaderboardComponent,
     BoxscoreComponent,
-    BasesLiveComponent
+    BasesLiveComponent,
+    ScorecardExtendedComponent,
+    BallsStrikesOutsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,11 @@
 <div class="scoreboard-container">
-  <mlb-data-scorecard
+  <!--<mlb-data-scorecard-->
+    <!--*ngFor="let game of scoreBoard"-->
+    <!--[game]="game"-->
+    <!--(click)="boxscore(game?.away_code, game?.home_code)"-->
+  <!--&gt;</mlb-data-scorecard>-->
+  <mlb-data-scorecard-extended
     *ngFor="let game of scoreBoard"
     [game]="game"
-    (click)="boxscore(game?.away_code, game?.home_code)"
-  ></mlb-data-scorecard>
+  ></mlb-data-scorecard-extended>
 </div>

@@ -18,13 +18,13 @@ export class BoxscoreComponent implements OnInit {
   public awayTriples: any;
   public homeHomeRuns: any;
   public awayHomeRuns: any;
+  public errorMessage = false;
 
   constructor(
     private scoresService: ScoresService
   ) { }
 
   ngOnInit() {
-
     this.scoresService.boxscoreObservable.subscribe(
       data => {
         this.boxscore = data;
@@ -67,7 +67,11 @@ export class BoxscoreComponent implements OnInit {
             return val.replace(/<\/?home_runs>/g, '');
           });
         }
-
+      },
+      err => {
+        // this.boxscore = err;
+        // this.errorMessage = true;
+        console.log('HELPELPE');
       }
     );
   }

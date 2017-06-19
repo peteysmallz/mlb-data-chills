@@ -8,14 +8,14 @@
         {{game?.away_team_name}}
       </td>
       <td
-        *ngIf="game?.linescore?.inning.length"
+        *ngIf="game?.linescore"
         width="50"
         class="scorecard-score"
       >
-        {{game?.linescore?.r?.away}}
+        {{game?.linescore.r?.away}}
       </td>
       <td
-        *ngIf="!game?.linescore?.inning.length"
+        *ngIf="!game?.linescore"
         width="50"
         class="scorecard-record"
       >
@@ -29,12 +29,12 @@
       <td class="scorecard-team-name">
         {{game?.home_team_name}}
       </td>
-      <td *ngIf="game?.linescore?.inning.length"
+      <td *ngIf="game?.linescore"
           class="scorecard-score"
       >
-        {{game?.linescore?.r?.home}}
+        {{game?.linescore.r?.home}}
       </td>
-      <td *ngIf="!game?.linescore?.inning.length"
+      <td *ngIf="!game?.linescore"
           class="scorecard-record"
       >
         {{game?.home_win}} - {{game?.home_loss}}
@@ -63,9 +63,19 @@
 
 <table *ngIf="game?.status.status === 'In Progress' " class="scorecard-overview">
   <tr>
-    <td>{{game?.status.inning_state}} {{game?.status.inning}}</td>
+    <td>
+      {{game?.status.inning_state}} {{game?.status.inning}}<br>
+      B: {{game?.batter.last}} {{game?.batter.avg}}<br>
+      P: {{game?.pitcher.last}} {{game?.pitcher.era}}
+    </td>
+    <td></td>
+    <td>
+      <mlb-data-bases-live
+        *ngIf="game?.status.status === 'In Progress'"
+        [game]="game"
+      ></mlb-data-bases-live>
+    </td>
   </tr>
-  <tr></tr>
 </table>
 
 <table *ngIf="game?.status.status === 'Final' " class="scorecard-overview">
@@ -74,9 +84,3 @@
   </tr>
   <tr></tr>
 </table>
-
-<mlb-data-bases-live
-  *ngIf="game?.status.status === 'In Progress'"
-  [game]="game"
-></mlb-data-bases-live>
-

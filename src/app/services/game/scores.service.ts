@@ -42,7 +42,8 @@ export class ScoresService {
         this.boxscore = {};
         this.boxscore = boxscore;
         this.boxscoreNotify.next(this.boxscore);
-      }
+      },
+      err => console.log('NO BOXSCORE YET! CHILL')
     );
   };
 }
