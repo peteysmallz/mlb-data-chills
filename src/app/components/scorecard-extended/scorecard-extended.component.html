@@ -1,5 +1,8 @@
-<div class="scoreboard-ext-container" *ngIf="game?.status.status === 'In Progress'">
-  <section class="scoreboard-section">
+<div class="scoreboard-ext-container">
+  <mlb-data-score-hits-errors
+    [game]="game"
+  ></mlb-data-score-hits-errors>
+  <section class="scoreboard-section" *ngIf="game?.status.status === 'In Progress'">
     <div class="header">
       <div>Pitcher</div>
     </div>

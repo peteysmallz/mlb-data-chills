@@ -24,6 +24,7 @@ import { BoxscoreComponent } from './components/boxscore/boxscore.component';
 import { BasesLiveComponent } from './components/bases-live/bases-live.component';
 import { ScorecardExtendedComponent } from './components/scorecard-extended/scorecard-extended.component';
 import { BallsStrikesOutsComponent } from './components/balls-strikes-outs/balls-strikes-outs.component';
+import { ScoreHitsErrorsComponent } from './components/scorecard-extended/score-hits-errors/score-hits-errors.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BallsStrikesOutsComponent } from './components/balls-strikes-outs/balls
     BoxscoreComponent,
     BasesLiveComponent,
     ScorecardExtendedComponent,
-    BallsStrikesOutsComponent
+    BallsStrikesOutsComponent,
+    ScoreHitsErrorsComponent
   ],
   imports: [
     BrowserModule,

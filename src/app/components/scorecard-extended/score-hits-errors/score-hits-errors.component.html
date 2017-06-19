@@ -1,0 +1,33 @@
+<div class="scoreboard-ext-container">
+  <section class="scoreboard-score">
+    <table>
+      <thead>
+        <tr class="header-linescore">
+          <th class="date-time">Final</th>
+          <th class="score">R</th>
+          <th class="score">H</th>
+          <th class="score">E</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="team-score-row">
+          <td class="away">
+            <div class="img-container">
+              <a href="http://link-to-team.com">
+                <!--Load strategy-->
+                <img class="focus-image" src="./assets/logos/{{game?.away_team_id}}.svg" />
+              </a>
+            </div>
+            <div class="team-meta">
+              <a href="" class="name">{{game?.away_team_city}}</a>
+              <span class="stat-line">{{game?.away_win}}-{{game?.away_loss}}</span>
+            </div>
+          </td>
+          <td class="total">4</td>
+          <td class="score">10</td>
+          <td class="score">1</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
