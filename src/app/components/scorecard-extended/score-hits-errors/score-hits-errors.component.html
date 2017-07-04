@@ -1,33 +1,49 @@
-<div class="scoreboard-ext-container">
-  <section class="scoreboard-score">
-    <table>
-      <thead>
-        <tr class="header-linescore">
-          <th class="date-time">Final</th>
-          <th class="score">R</th>
-          <th class="score">H</th>
-          <th class="score">E</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="team-score-row">
-          <td class="away">
-            <div class="img-container">
-              <a href="http://link-to-team.com">
-                <!--Load strategy-->
-                <img class="focus-image" src="./assets/logos/{{game?.away_team_id}}.svg" />
-              </a>
-            </div>
-            <div class="team-meta">
-              <a href="" class="name">{{game?.away_team_city}}</a>
-              <span class="stat-line">{{game?.away_win}}-{{game?.away_loss}}</span>
-            </div>
-          </td>
-          <td class="total">4</td>
-          <td class="score">10</td>
-          <td class="score">1</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-</div>
+<section class="scoreboard-score">
+  <table>
+    <thead>
+      <tr class="header-linescore">
+        <th class="date-time" *ngIf="game?.status.inning_state "> {{game?.status.inning_state}} {{game?.status.inning}}</th>
+        <th class="date-time" *ngIf="!game?.status.inning_state "> {{game?.status.status}}</th>
+        <th class="score">R</th>
+        <th class="score">H</th>
+        <th class="score">E</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="team-score-row">
+        <td class="away">
+          <div class="img-container">
+            <a href="http://link-to-team.com">
+              <!--Load strategy-->
+              <img class="focus-image" src="./assets/logos/{{game?.away_team_id}}.svg" />
+            </a>
+          </div>
+          <div class="team-meta">
+            <a href="" class="name">{{game?.away_team_city}}</a>
+            <span class="stat-line">{{game?.away_win}}-{{game?.away_loss}}</span>
+          </div>
+        </td>
+        <td class="total">{{game?.linescore.r.away}}</td>
+        <td class="score">{{game?.linescore.h.away}}</td>
+        <td class="score">{{game?.linescore.e.away}}</td>
+      </tr>
+      <tr class="team-score-row">
+        <td class="home">
+          <div class="img-container">
+            <a href="http://link-to-team.com">
+              <!--Load strategy-->
+              <img class="focus-image" src="./assets/logos/{{game?.home_team_id}}.svg" />
+            </a>
+          </div>
+          <div class="team-meta">
+            <a href="" class="name">{{game?.home_team_city}}</a>
+            <span class="stat-line">{{game?.home_win}}-{{game?.home_loss}}</span>
+          </div>
+        </td>
+        <td class="total">{{game?.linescore.r.home}}</td>
+        <td class="score">{{game?.linescore.h.home}}</td>
+        <td class="score">{{game?.linescore.e.home}}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

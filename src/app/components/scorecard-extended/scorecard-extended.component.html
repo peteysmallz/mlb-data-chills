@@ -1,34 +1,38 @@
 <div class="scoreboard-ext-container">
-  <mlb-data-score-hits-errors
-    [game]="game"
-  ></mlb-data-score-hits-errors>
+  <section class="scoreboard-section">
+    <mlb-data-score-hits-errors
+      [game]="game"
+    ></mlb-data-score-hits-errors>
+  </section>
   <section class="scoreboard-section" *ngIf="game?.status.status === 'In Progress'">
-    <div class="header">
-      <div>Pitcher</div>
-    </div>
-    <div class="player-row">
-      <div class="img-container">
-        <div class="headshot-wrapper">
-          <img class="headshot" src="https://content.mlb.com/images/headshots/current/60x60/{{game?.pitcher.id}}.png" alt="">
+    <div class="scoreboard-section-wrapper">
+      <div class="header">
+        <div>Pitcher</div>
+      </div>
+      <div class="player-row">
+        <div class="img-container">
+          <div class="headshot-wrapper">
+            <img class="headshot" src="https://content.mlb.com/images/headshots/current/60x60/{{game?.pitcher.id}}.png" alt="">
+          </div>
+        </div>
+        <div class="pitcher-meta">
+          <a href="" class="name">{{game?.pitcher.name_display_roster}}</a>
+          <span class="stat-line">{{game?.pitcher.ip}} IP, {{game?.pitcher.ip}} ER, {{game?.pitcher.h}} H, {{game?.pitcher.so}} SO, {{game?.pitcher.bb}} BB</span>
         </div>
       </div>
-      <div class="pitcher-meta">
-        <a href="" class="name">{{game?.pitcher.name_display_roster}}</a>
-        <span class="stat-line">{{game?.pitcher.ip}} IP, {{game?.pitcher.ip}} ER, {{game?.pitcher.h}} H, {{game?.pitcher.so}} SO, {{game?.pitcher.bb}} BB</span>
+      <div class="header">
+        <div>Hitter</div>
       </div>
-    </div>
-    <div class="header">
-      <div>Hitter</div>
-    </div>
-    <div class="player-row">
-      <div class="img-container">
-        <div class="headshot-wrapper">
-          <img class="headshot" src="https://content.mlb.com/images/headshots/current/60x60/{{game?.batter.id}}.png" alt="">
+      <div class="player-row">
+        <div class="img-container">
+          <div class="headshot-wrapper">
+            <img class="headshot" src="https://content.mlb.com/images/headshots/current/60x60/{{game?.batter.id}}.png" alt="">
+          </div>
         </div>
-      </div>
-      <div class="hitter-meta">
-        <a href="" class="name">{{game?.batter.name_display_roster}}</a>
-        <span class="stat-line">{{game?.status.b}}-{{game?.status.s}}, {{game?.batter.ab}} AB, {{game?.batter.h}} H</span>
+        <div class="hitter-meta">
+          <a href="" class="name">{{game?.batter.name_display_roster}}</a>
+          <span class="stat-line">{{game?.status.b}}-{{game?.status.s}}, {{game?.batter.ab}} AB, {{game?.batter.h}} H</span>
+        </div>
       </div>
     </div>
   </section>
