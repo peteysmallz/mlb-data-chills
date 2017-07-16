@@ -1,5 +1,5 @@
 <div class="scoreboard-ext-container">
-  <section class="scoreboard-section">
+  <section class="scoreboard-section" *ngIf="game?.linescore">
     <mlb-data-score-hits-errors
       [game]="game"
     ></mlb-data-score-hits-errors>
@@ -37,10 +37,13 @@
     </div>
   </section>
 
-  <section class="scoreboard-section">
+  <section class="scoreboard-section scoreboard-details">
     <mlb-data-bases-live
       [game]="game"
     ></mlb-data-bases-live>
+    <mlb-data-balls-strikes-outs
+      [game]="game"
+    ></mlb-data-balls-strikes-outs>
 
   </section>
 </div>

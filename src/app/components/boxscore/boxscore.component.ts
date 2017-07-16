@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScoresService } from '../../services/game/scores.service';
-
+import { UtilService } from '../../services/util.service';
 
 @Component({
   selector: 'mlb-data-boxscore',
@@ -21,10 +21,17 @@ export class BoxscoreComponent implements OnInit {
   public errorMessage = false;
 
   constructor(
-    private scoresService: ScoresService
+    private scoresService: ScoresService,
+    private util: UtilService
   ) { }
 
   ngOnInit() {
+
+    const today = this.util.getToday();
+    const day = today.day;
+    const month = today.month;
+    const year = today.year;
+
     this.scoresService.boxscoreObservable.subscribe(
       data => {
         this.boxscore = data;

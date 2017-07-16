@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { ServerService } from '../../services/server.service';
+
 import 'rxjs'; // TODO: Reference specific library
 
 @Injectable()
@@ -46,4 +47,9 @@ export class ScoresService {
       err => console.log('NO BOXSCORE YET! CHILL')
     );
   };
+
+  pollBoxscore(day: string, month: string, year: string, awayTeam: string, homeTeam: string) {
+    return Observable.interval(5000)
+      .switchMap(() => this.getBoxscore(day, month, year, awayTeam, homeTeam));
+  }
 }
