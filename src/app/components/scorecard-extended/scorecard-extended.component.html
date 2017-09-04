@@ -1,0 +1,28 @@
+<div class="scoreboard-ext-container">
+  <section class="scoreboard-section" *ngIf="game?.linescore">
+    <mlb-data-score-hits-errors
+      [game]="game"
+    ></mlb-data-score-hits-errors>
+  </section>
+  <section class="scoreboard-section scoreboard-details" *ngIf="game?.status.status === 'In Progress'">
+    <div class="scoreboard-section-wrapper">
+      <mlb-data-pitching-vs-hitting [game]="game"></mlb-data-pitching-vs-hitting>
+    </div>
+  </section>
+
+  <section class="scoreboard-section scoreboard-details">
+    <div class="top">
+      <mlb-data-bases-live
+        [game]="game"
+      ></mlb-data-bases-live>
+      <mlb-data-balls-strikes-outs
+        [game]="game"
+      ></mlb-data-balls-strikes-outs>
+    </div>
+
+    <div class="bottom">
+      <mlb-data-last-play [game]="game"></mlb-data-last-play>
+    </div>
+
+  </section>
+</div>

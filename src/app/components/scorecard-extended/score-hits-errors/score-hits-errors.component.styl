@@ -1,0 +1,132 @@
+.scoreboard-score
+  height: 136px
+  margin-right: -450px
+  padding-left: 450px
+  right: 450px
+  position: relative
+  width: 327px
+
+  table // Use gloabal table styles!
+    color: #6c6d6f
+    position: relative
+    width: 100%
+    background: none
+    background-image: none
+    border: 0
+    border-collapse: collapse
+    border-spacing: 0
+    margin: 0
+    padding: 0
+
+    thead
+      font-size: 12px
+      font-weight: 400
+      padding-bottom: 6px
+      padding-top: 6px
+      background: none
+      background-image: none
+      border: 0
+      border-collapse: collapse
+      border-spacing: 0
+      color: inherit
+      font-family: inherit
+      height: auto
+      line-height: inherit
+      margin: 0
+
+      th
+        border-bottom: 1px solid #cbccce
+        padding: 6px 9px
+
+        &:first-of-type
+          height: auto
+
+        &:first-child
+          text-align: left
+
+        .date-time
+          font-size: 12px
+          font-weight: 600
+
+        .score
+          padding: 0 3px !important
+          text-align: center
+          width: 18px
+          color: #2b2c2d
+          font-size: 11px
+
+      tbody
+        background: none
+        background-image: none
+        border: 0
+        border-collapse: collapse
+        border-spacing: 0
+        color: inherit
+        font-family: inherit
+        font-size: inherit
+        height: auto
+        line-height: inherit
+        margin: 0
+        padding: 0
+
+  .header-linescore
+    border-bottom: 1px solid
+
+  .team-score-row
+    .img-container
+      border: 0
+      padding: 0
+      position: relative
+
+      .focus-image
+        bottom: 0
+        left: 0
+        margin: 0 auto
+        max-width: 35px
+        position: absolute
+        right: 0
+        top: 0
+
+    .score
+    .total
+      font-size: 16px
+      font-weight: 400
+      padding-left: 8px
+      padding-right: 8px
+      text-align: center
+      width: 40px
+
+    .home
+    .away
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      padding: 10px 0
+
+.pitcher-meta
+.hitter-meta
+.team-meta
+  width: auto
+  display: flex
+  flex-direction: column
+  font-size: 11px
+  line-height: 1.2
+  padding-left: 9px
+  vertical-align: middle
+
+  .name
+    color: #48494a  // Should be shared style for <a href"">
+    outline: 0 !important  // Should be shared style for <a href"">
+    background: transparent  // Should be shared style for <a href"">
+    text-decoration: none  // Should be shared style for <a href"">
+    max-width: 110px
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    vertical-align: top
+    font-size: 11px
+    line-height: 1.2
+
+  .stat-line
+    color: #a5a6a7
+    text-transform: uppercase

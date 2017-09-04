@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScoresService } from '../../services/game/scores.service';
-
+import { UtilService } from '../../services/util.service';
 
 @Component({
   selector: 'mlb-data-boxscore',
@@ -18,12 +18,19 @@ export class BoxscoreComponent implements OnInit {
   public awayTriples: any;
   public homeHomeRuns: any;
   public awayHomeRuns: any;
+  public errorMessage = false;
 
   constructor(
-    private scoresService: ScoresService
+    private scoresService: ScoresService,
+    private util: UtilService
   ) { }
 
   ngOnInit() {
+
+    const today = this.util.getToday();
+    const day = today.day;
+    const month = today.month;
+    const year = today.year;
 
     this.scoresService.boxscoreObservable.subscribe(
       data => {
@@ -67,7 +74,11 @@ export class BoxscoreComponent implements OnInit {
             return val.replace(/<\/?home_runs>/g, '');
           });
         }
-
+      },
+      err => {
+        // this.boxscore = err;
+        // this.errorMessage = true;
+        console.log('HELPELPE');
       }
     );
   }

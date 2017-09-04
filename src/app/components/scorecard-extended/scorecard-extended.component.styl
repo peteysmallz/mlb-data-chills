@@ -1,0 +1,69 @@
+.scoreboard-ext-container
+  display: flex
+  flex-direction: row
+  border: 1px solid #cbccce
+  margin-bottom: 20px
+
+  .scoreboard-section
+    display: flex
+    flex-direction: column
+    height: 159px
+    border-right: 1px solid #cbccce
+    padding: 10px
+
+    &.scoreboard-details
+      width: 225px
+
+    .top
+      display: inline-flex
+      justify-content: space-between
+      align-items: flex-end
+
+    .bottom
+      display: flex
+      margin-top: auto
+
+  .scoreboard-section-wrapper
+    padding: 10px
+
+  .header
+    color: #a5a6a7
+    font-size: 12px
+    font-weight: 400
+    margin-bottom: 4px
+    overflow: hidden
+    text-transform: uppercase
+
+.player-row
+  display: flex
+  margin-bottom: 10px
+
+.img-container
+  display: table-cell
+  height: 40px
+  margin: 0
+  min-width: 40px
+  overflow: hidden
+  padding-right: 4px
+  vertical-align: middle
+  width: 40px
+  border: #dcdddf 1px solid
+  border-radius: 50px
+  position: inherit
+
+  .headshot-wrapper
+    height: 100%
+    position: relative
+    width: 100%
+
+  .headshot
+    max-width: 50px
+    bottom: 0
+    left: -3px
+    margin: 0 auto
+    position: absolute
+    right: 0
+    top: 0
+
+mlb-data-last-play
+  font-size: 10px
