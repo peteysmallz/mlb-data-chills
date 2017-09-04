@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 import { routing, appRoutingProviders } from './app.routing';
 
@@ -25,6 +25,9 @@ import { BasesLiveComponent } from './components/bases-live/bases-live.component
 import { ScorecardExtendedComponent } from './components/scorecard-extended/scorecard-extended.component';
 import { BallsStrikesOutsComponent } from './components/balls-strikes-outs/balls-strikes-outs.component';
 import { ScoreHitsErrorsComponent } from './components/scorecard-extended/score-hits-errors/score-hits-errors.component';
+import { LastPlayComponent } from './components/last-play/last-play.component';
+import { DueUpNextComponent } from './components/due-up-next/due-up-next.component';
+import { PitchingVsHittingComponent } from './components/pitching-vs-hitting/pitching-vs-hitting.component';
 
 @NgModule({
   declarations: [
@@ -38,12 +41,16 @@ import { ScoreHitsErrorsComponent } from './components/scorecard-extended/score-
     BasesLiveComponent,
     ScorecardExtendedComponent,
     BallsStrikesOutsComponent,
-    ScoreHitsErrorsComponent
+    ScoreHitsErrorsComponent,
+    LastPlayComponent,
+    DueUpNextComponent,
+    PitchingVsHittingComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    JsonpModule,
     routing
   ],
   providers: [

@@ -12,6 +12,8 @@ export class ScoresService {
   public boxscore: any;
   public boxscoreObservable: Observable<any>;
   public boxscoreNotify: any;
+  public scoreboardObservable: Observable<any>;
+  public scoreboardNotify: any;
 
   constructor(
     private http: Http,
@@ -20,9 +22,13 @@ export class ScoresService {
       this.boxscoreObservable = new Observable(
         (observer: any) => this.boxscoreNotify = observer
       ).share();
+
+      this.scoreboardObservable = new Observable(
+        (observer: any) => this.scoreboardNotify = observer
+      ).share();
   }
 
-  getMasterScoreboard(day: string, month: string, year: string) {
+  getMasterScoreboard(day: string, month: string, year: string): Observable<any> {
     return this.http.get(this.ROOT_URL + 'year_' + year + '/month_' + month + '/day_' + day + '/master_scoreboard.json')
       .map(this.server.extractData)
       .map((data) => data.games)
@@ -37,19 +43,23 @@ export class ScoresService {
       .catch(this.server.handleError);
   }
 
-  fetchBoxscore(day: string, month: string, year: string, awayTeam: string, homeTeam: string) {
-    this.getBoxscore(day, month, year, awayTeam, homeTeam).subscribe(
-      (boxscore: any) => {
-        this.boxscore = {};
-        this.boxscore = boxscore;
-        this.boxscoreNotify.next(this.boxscore);
-      },
-      err => console.log('NO BOXSCORE YET! CHILL')
+  updateMasterScoreboard(day: string, month: string, year: string) {
+    return Observable.interval(30000)
+      .switchMap(() => this.getMasterScoreboard(day, month, year))
+      .subscribe(
+        scoreboard => {
+          this.scoreboardNotify.next(scoreboard);
+        }
     );
-  };
+  }
 
-  pollBoxscore(day: string, month: string, year: string, awayTeam: string, homeTeam: string) {
-    return Observable.interval(5000)
-      .switchMap(() => this.getBoxscore(day, month, year, awayTeam, homeTeam));
+  updateBoxscore(day: string, month: string, year: string, awayTeam: string, homeTeam: string) {
+    return this.getBoxscore(day, month, year, awayTeam, homeTeam)
+      .subscribe(
+        boxscore => {
+          this.boxscoreNotify.next(boxscore);
+        },
+        err => console.log('NO BOXSCORE YET! CHILL')
+      );
   }
 }

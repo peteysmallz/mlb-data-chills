@@ -1,24 +1,24 @@
 <div class="circleGraphs">
   <div class="circleGraph  four">
     <span class="abbrev">B</span>
-    <span class="circle balls "></span>
-    <span class="circle balls "></span>
-    <span class="circle balls "></span>
-    <span class="circle balls "></span>
-    <span class="description">0 Balls</span>
+    <span class="circle balls " [ngClass]="{'active': game?.status.b === '1' || game?.status.b === '2' || game?.status.b === '3' || game?.status.b === '4'}"></span>
+    <span class="circle balls " [ngClass]="{'active': game?.status.b === '2' || game?.status.b === '3' || game?.status.b === '4'}"></span>
+    <span class="circle balls" [ngClass]="{'active': game?.status.b === '3' || game?.status.b === '4'}"></span>
+    <span class="circle balls" [ngClass]="{'active': game?.status.b === '4'}"></span>
+    <span class="description">{{game?.status.b}} Balls</span>
   </div>
   <div class="circleGraph ">
     <span class="abbrev">S</span>
-    <span class="circle strikes active"></span>
-    <span class="circle strikes "></span>
-    <span class="circle strikes "></span>
-    <span class="description">0 Strikes</span>
+    <span class="circle strikes" [ngClass]="{'active': game?.status.s === '1' || game?.status.s === '2' || game?.status.s === '3'}"></span>
+    <span class="circle strikes" [ngClass]="{'active': game?.status.s === '2' || game?.status.s === '3'}"></span>
+    <span class="circle strikes" [ngClass]="{'active': game?.status.s === '3'}"></span>
+    <span class="description">{{game?.status.s}} Strikes</span>
   </div>
   <div class="circleGraph ">
     <span class="abbrev">O</span>
-    <span class="circle outs "></span>
-    <span class="circle outs "></span>
-    <span class="circle outs "></span>
-    <span class="description">0 Outs</span>
+    <span class="circle outs " [ngClass]="{'active': game?.status.o === '1' || game?.status.o === '2' || game?.status.o === '3'}"></span>
+    <span class="circle outs " [ngClass]="{'active': game?.status.o === '2' || game?.status.o === '3'}"></span>
+    <span class="circle outs " [ngClass]="{'active': game?.status.o === '3'}"></span>
+    <span class="description">{{game?.status.o}} Outs</span>
   </div>
 </div>

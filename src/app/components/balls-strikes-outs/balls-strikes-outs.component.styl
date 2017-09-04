@@ -1,39 +1,35 @@
-.circleGraphs {
-  border-bottom: 1px solid #cbccce;
-  border-top: 1px solid #cbccce;
-  overflow: hidden;
-  padding: 5px 0;
-  width: 100%;
-}
+.circleGraphs
+  overflow: hidden
+  padding: 5px 0
+  width: 70px
+  height: auto
+  display: flex
+  flex-direction: column
 
-.circleGraph .abbrev {
-  float: left;
-  margin-right: 5px;
-  font-size: 10px
-  color: #222222
-}
+  .abbrev
+    float: left
+    text-align center
+    margin-right: 5px
+    font-size: 10px
+    color: #222222
+    width: 8px
 
-.circleGraph span {
-  display: block;
-}
+  span
+    display: block
 
-.circleGraph.four {
-  width: 64px;
-}
+  &.four
+    width: 64px
 
-.circleGraph .circle {
-  background-color: #cbccce;
-  border-radius: 10px;
-  float: left;
-  height: 10px;
-  margin-right: 3px;
-  width: 10px;
-}
+  .circle
+    background-color: #cbccce
+    border-radius: 10px
+    float: left
+    height: 10px
+    margin-right: 3px
+    width: 10px
 
-.circleGraph .description {
-  display: none;
-}
+  .description
+    display: none
 
-.circleGraph .active {
-  background-color: #d00;
-}
+  .active
+    background-color: #d00

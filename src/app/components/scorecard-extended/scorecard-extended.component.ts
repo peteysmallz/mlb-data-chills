@@ -17,6 +17,7 @@ export class ScorecardExtendedComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+
   }
 }
 

@@ -24,14 +24,13 @@ export class ScoreboardComponent implements OnInit {
    const month = today.month;
    const year = today.year;
 
-   // Get today's scores
+   this.scores.updateMasterScoreboard(day, month, year);
 
-    this.scores.getMasterScoreboard(day, month, year)
-      .subscribe(
-        (games: Array<any>) => {
-          this.scoreBoard = games;
-        }
-    );
+   this.scores.scoreboardObservable.subscribe(
+     (games: Array<any>) => {
+       this.scoreBoard = games;
+     }
+   );
 
     // To keep the scoreboard updated
     // TODO: Should not be 'on' when no games are active
@@ -50,7 +49,7 @@ export class ScoreboardComponent implements OnInit {
     const month = today.month;
     const year = today.year;
 
-    this.scores.fetchBoxscore(day, month, year, awayTeam, homeTeam);
+    this.scores.updateBoxscore(day, month, year, awayTeam, homeTeam);
   };
 
 }
